@@ -1,0 +1,4928 @@
+512,Windows NT is starting up,-Windows is starting up.
+513,Windows is shutting down,-Windows is shutting down. All logon sessions will be terminated by this shutdown.
+514,An authentication package has been loaded by the Local Security Authority,AuthenticationPackageName
+515,A trusted logon process has registered with the Local Security Authority,"-A trusted logon process has registered with the Local Security Authority. This logon process will be trusted to submit logon requests. 
+
+    Logon Process Name:  %1
+    Caller User Name:    %2
+    Caller Domain:       %3
+    Caller Logon ID:     %4"
+516,"Queuing of audit messages have been exhausted, leading to the loss of some audits","-Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits. 
+    Number of audit messages discarded: %1"
+517,The audit log was cleared,"-The audit log was cleared 
+    Primary User Name:      %1
+    Primary Domain:         %2
+    Primary Logon ID:       %3
+    Client User Name:       %4
+    Client Domain:          %5
+    Client Logon ID:        %6
+    Client Process ID:      %7"
+518,A notification package has been loaded by the Security Account Manager,"-An notification package has been loaded by the Security Account Manager. This package will be notified of any account or password changes. 
+ Notification Package Name: %1"
+519,A process is using an invalid local procedure call (LPC) port,"-Invalid use of LPC port.
+    Process ID:        %1
+    Image File Name:   %2
+    Primary User Name: %3
+    Primary Domain:    %4
+    Primary Logon ID:  %5
+    Client User Name:  %6
+    Client Domain:     %7
+    Client Logon ID:   %8
+    Invalid use:       %9
+    Server Port Name:  %10"
+520,The system time was changed,"-The system time was changed.
+    Process ID:         %1
+    Process Name:       %2
+    Primary User Name:  %3
+    Primary Domain:     %4
+    Primary Logon ID:   %5
+    Client User Name:   %6
+    Client Domain:      %7
+    Client Logon ID:    %8
+    Previous Time:      %10 %9
+    New Time:           %12 %11"
+521,Unable to log events to security log,"-Unable to log events to security log:
+    Status code:                 %1
+    Value of CrashOnAuditFail:   %2
+    Number of failed audits:     %3"
+523,The security log is full,-The security log is now %1 percent full.
+528,Successful Logon,"-Successful Logon:
+    User Name:              %1
+    Domain:                 %2
+    Logon ID:               %3
+    Logon Type:             %4
+    Logon Process:          %5
+    Authentication Package: %6
+    Workstation Name:       %7
+    Logon GUID:             %8
+    Caller User Name:       %9
+    Caller Domain:          %10
+    Caller Logon ID:        %11
+    Caller Process ID:      %12
+    Transited Services:     %13
+    Source Network Address: %14
+    Source Port:            %15
+    Caller Process Name:    %16"
+529,Logon Failure : Unknown username or bad password,"-Logon Failure:
+    Reason:                  Unknown user name or bad password
+    User Name:               %1
+    Domain:                  %2
+    Logon Type:              %3
+    Logon Process:           %4
+    Authentication Package:  %5
+    Workstation Name:        %6
+    Caller User Name:        %7
+    Caller Domain:           %8
+    Caller Logon ID:         %9
+    Caller Process ID:       %10
+    Transited Services:      %11
+    Source Network Address:  %12
+    Source Port:             %13
+    Caller Process Name:     %14"
+530,Logon Failure : Account logon time restriction violation,"-Logon Failure:
+    Reason:                 Account logon time restriction violation
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Caller User Name:       %7
+    Caller Domain:          %8
+    Caller Logon ID:        %9
+    Caller Process ID:      %10
+    Transited Services:     %11
+    Source Network Address: %12
+    Source Port:            %13
+    Caller Process Name:    %14"
+531,Logon Failure : Account currently disabled,"-Logon Failure:
+    Reason:                 Account currently disabled
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Caller User Name:       %7
+    Caller Domain:          %8
+    Caller Logon ID:        %9
+    Caller Process ID:      %10
+    Transited Services:     %11
+    Source Network Address: %12
+    Source Port:            %13
+    Caller Process Name:    %14"
+532,Logon Failure : The specified user account has expired,"-Logon Failure:
+    Reason:                 The specified user account has expired
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Caller User Name:       %7
+    Caller Domain:          %8
+    Caller Logon ID:        %9
+    Caller Process ID:      %10
+    Transited Services:     %11
+    Source Network Address: %12
+    Source Port:            %13
+    Caller Process Name:    %14"
+533,Logon Failure : User not allowed to logon at this computer,"-Logon Failure:
+    Reason:                 User not allowed to logon at this computer
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Caller User Name:       %7
+    Caller Domain:          %8
+    Caller Logon ID:        %9
+    Caller Process ID:      %10
+    Transited Services:     %11
+    Source Network Address: %12
+    Source Port:            %13
+    Caller Process Name:    %14"
+534,Logon Failure : The user has note been granted the requested logon type at this machine,"-Logon Failure:
+    Reason:                 The user has not been granted the requested
+                            logon type at this machine
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Caller User Name:       %7
+    Caller Domain:          %8
+    Caller Logon ID:        %9
+    Caller Process ID:      %10
+    Transited Services:     %11
+    Source Network Address: %12
+    Source Port:            %13
+    Caller Process Name:    %14"
+535,Logon Failure : The specified account's password has expired,"-Logon Failure:
+    Reason:                 The specified account's password has expired
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Caller User Name:       %7
+    Caller Domain:          %8
+    Caller Logon ID:        %9
+    Caller Process ID:      %10
+    Transited Services:     %11
+    Source Network Address: %12
+    Source Port:            %13
+    Caller Process Name:    %14"
+536,Logon Failure : The NetLogon component is not active,"-Logon Failure:
+    Reason:                 The NetLogon component is not active
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Caller User Name:       %7
+    Caller Domain:          %8
+    Caller Logon ID:        %9
+    Caller Process ID:      %10
+    Transited Services:     %11
+    Source Network Address: %12
+    Source Port:            %13
+    Caller Process Name:    %14"
+537,The logon attempt failed for other reasons,"-Logon Failure:
+    Reason:                 An error occurred during logon
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Status code:            %7
+    Substatus code:         %8
+    Caller User Name:       %9
+    Caller Domain:          %10
+    Caller Logon ID:        %11
+    Caller Process ID:      %12
+    Transited Services:     %13
+    Source Network Address: %14
+    Source Port:            %15
+    Caller Process Name:    %16"
+538,The user has logged off,"-Logon Failure:
+    Reason:                 An error occurred during logon
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Status code:            %7
+    Substatus code:         %8
+    Caller User Name:       %9
+    Caller Domain:          %10
+    Caller Logon ID:        %11
+    Caller Process ID:      %12
+    Transited Services:     %13
+    Source Network Address: %14
+    Source Port:            %15
+    Caller Process Name:    %16"
+539,Logon Failure : Account locked out,"-Logon Failure:
+    Reason:                 An error occurred during logon
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6
+    Status code:            %7
+    Substatus code:         %8
+    Caller User Name:       %9
+    Caller Domain:          %10
+    Caller Logon ID:        %11
+    Caller Process ID:      %12
+    Transited Services:     %13
+    Source Network Address: %14
+    Source Port:            %15
+    Caller Process Name:    %16"
+540,Successful Network Logon,"-Successful Network Logon:
+    User Name:               %1
+    Domain:                  %2
+    Logon ID:                %3
+    Logon Type:              %4
+    Logon Process:           %5
+    Authentication Package:  %6
+    Workstation Name:        %7
+    Logon GUID:              %8
+    Caller User Name:        %9
+    Caller Domain:           %10
+    Caller Logon ID:         %11
+    Caller Process ID:       %12
+    Transited Services:      %13
+    Source Network Address:  %14
+    Source Port:             %15
+    Caller Process Name:     %16"
+548,Logon Failure : Domain SID inconsistent,"-Logon Failure:
+    Reason:                 Domain sid inconsistent
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6  Transited Services: %7"
+549,Logon Failure : All SIDs were filtered out,"-Logon Failure:
+    Reason:                 All sids were filtered out
+    User Name:              %1
+    Domain:                 %2
+    Logon Type:             %3
+    Logon Process:          %4
+    Authentication Package: %5
+    Workstation Name:       %6"
+551,User initiated logoff,"-User initiated logoff:
+    User Name:  %1
+    Domain:     %2
+    Logon ID:   %3"
+552,Logon attempt using explicit credentials,"-Logon attempt using explicit credentials:
+ Logged on user:
+    User Name:         %1
+    Domain:            %2
+    Logon ID:          %3
+    Logon GUID:        %4
+ User whose credentials were used:
+    Target User Name:  %5
+    Target Domain:     %6
+    Target Logon GUID: %7
+
+ Target Server Name:       %8
+ Target Server Info:       %9
+ Caller Process ID:        %10
+ Source Network Address:   %11
+ Source Port:              %12
+ Caller Process Name:      %13"
+560,Object Open,"-Object Open:
+    Object Server:        %1
+    Object Type:          %2
+    Object Name:          %3
+    Handle ID:            %4
+    Operation ID:         %5
+    Process ID:           %6
+    Image File Name:      %7
+    Primary User Name:    %8
+    Primary Domain:       %9
+    Primary Logon ID:     %10
+    Client User Name:     %11
+    Client Domain:        %12
+    Client Logon ID:      %13
+    Accesses:             %14
+    Privileges:           %15
+    Restricted Sid Count: %16
+    Access Mask:          %17"
+561,Handle Allocated,"-Handle Allocated: 
+    Handle ID:    %1
+    Operation ID: {%2,%3} 
+    Process ID:   %4"
+562,Handle Closed,"-Handle Closed:
+    Object Server:   %1
+    Handle ID:       %2
+    Process ID:      %3
+    Image File Name: %4"
+563,Object Open for Delete,"-Object Open for Delete:
+    Object Server:     %1
+    Object Type:       %2
+    Object Name:       %3
+    Handle ID:         %4
+    Operation ID:      {%5,%6}
+    Process ID:        %7
+    Primary User Name: %8
+    Primary Domain:    %9
+    Primary Logon ID:  %10
+    Client User Name:  %11
+    Client Domain:     %12
+    Client Logon ID:   %13
+    Accesses:          %14
+    Privileges:        %15
+    Access Mask:       %16"
+564,Object Deleted,"-Object Deleted:
+    Object Server:   %1
+    Handle ID:       %2
+    Process ID:      %3
+    Image File Name: %4"
+565,Object Open,"-Object Open:
+    Object Server:      %1
+    Object Type:        %2
+    Object Name:        %3
+    Handle ID:          %4
+    Operation ID:       {%5,%6}
+    Process ID:         %7
+    Process Name:       %8
+    Primary User Name:  %9
+    Primary Domain:     %10
+    Primary Logon ID:   %11
+    Client User Name:   %12
+    Client Domain:      %13
+    Client Logon ID:    %14
+    Accesses:           %15
+    Privileges:         %16
+
+    Properties:
+        %17
+    Access Mask:        %18"
+566,Object Operation,"-Object Operation:
+    Object Server:      %1
+    Operation Type:     %2
+    Object Type:        %3
+    Object Name:        %4
+    Handle ID:          %5
+    Primary User Name:  %6
+    Primary Domain:     %7
+    Primary Logon ID:   %8
+    Client User Name:   %9
+    Client Domain:      %10
+    Client Logon ID:    %11
+    Accesses:           %12
+    Properties:
+    %13
+    Additional Info:    %14
+    Additional Info2:   %15
+    Access Mask:        %16"
+567,Object Access Attempt,"-Object Access Attempt:
+    Object Server:     %1
+    Handle ID:         %2
+    Object Type:       %3
+    Process ID:        %4
+    Image File Name:   %5
+    Accesses:          %6
+    Access Mask:       %7
+    Object Name:       %8
+    Primary User Name: %9
+    Primary Domain:    %10
+    Primary Logon ID:  %11
+    Client User Name:  %12
+    Client Domain:     %13
+    Client Logon ID:   %14"
+568,Hard link creation attempt,"-Hard link creation attempt:
+    Primary User Name: %1
+    Primary Domain:    %2
+    Primary Logon ID:  %3
+    File Name:         %4
+    Link Name:         %5"
+569,Application client context creation attempt,"-Application client context creation attempt:
+    Application Name:        %1
+    Application Instance ID: %2
+    Client Name:             %3
+    Client Domain:           %4
+    Client Context ID:       %5
+    Status:                  %6"
+570,Application operation attempt,"-Application operation attempt:
+    Application Name:         %1
+    Application Instance ID:  %2
+    Object Name:              %3
+    Scope Names:              %4
+    Client Name:              %5
+    Client Domain:            %6
+    Client Context ID:        %7
+    Role:                     %8
+    Groups:                   %9
+    Operation Name:           %10 (%11)"
+571,Application client context deletion,"-Application client context deletion:
+    Application Name:        %1
+    Application Instance ID: %2
+    Client Name:             %3
+    Client Domain:           %4
+    Client Context ID:       %5"
+572,Application Initialized,"-Application Initialized
+    Application Name:         %1
+    Application Instance ID:  %2
+    Client Name:              %3
+    Client Domain:            %4
+    Client ID:                %5
+    Policy Store URL:         %6"
+574,Security on object changed,"-Security on object changed:
+    Object Server:                %1
+    Object Type:                  %2
+    Object Name:                  %3
+    Handle ID:                    %4
+    Process ID:                   %5
+    Image File Name:              %6
+
+    Primary User Name:            %7
+    Primary Domain:               %8
+    Primary Logon ID:             %9
+    Client User Name:             %10
+    Client Domain:                %11
+    Client Logon ID:              %12
+    Original Security Descriptor: %13
+    New Security Descriptor:      %14"
+576,Special privileges assigned to new logon,"-Special privileges assigned to new logon:
+    User Name:      %1
+    Domain:         %2
+    Logon ID:       %3
+    Privileges:     %4"
+577,Privileged Service Called,"-Privileged Service Called:
+    Server:            %1
+    Service:           %2
+    Primary User Name: %3
+    Primary Domain:    %4
+    Primary Logon ID:  %5
+    Client User Name:  %6
+    Client Domain:     %7
+    Client Logon ID:   %8
+    Privileges:        %9
+    Process ID:        %10
+    Process Name:      %11"
+578,Privileged object operation,"-Privileged object operation:
+    Object Server:     %1
+    Object Handle:     %2
+    Process ID:        %3
+    Primary User Name: %4
+    Primary Domain:    %5
+    Primary Logon ID:  %6
+    Client User Name:  %7
+    Client Domain:     %8
+    Client Logon ID:   %9
+    Privileges:        %10
+    Object Type:       %11
+    Object Name:       %12
+    Desired Access:    %13"
+592,A new process has been created,"-A new process has been created:
+    New Process ID:         %1
+    Image File Name:        %2
+    Creator Process ID:     %3
+    User Name:              %4
+    Domain:                 %5
+    Logon ID:               %6
+    Token Elevation Type:   %7"
+593,A process has exited,"-A process has exited:
+    Process ID:       %1 
+    Image File Name:  %2 
+    User Name:        %3
+    Domain:           %4
+    Logon ID:         %5
+    Exit Status:      %6"
+594,A handle to an object has been duplicated,"-A handle to an object has been duplicated:
+    Source Handle ID:   %1
+    Source Process ID:  %2
+    Target Handle ID:   %3
+    Target Process ID:  %4"
+595,Indirect access to an object has been obtained,"-Indirect access to an object has been obtained:
+    Object Type:       %1
+    Object Name:       %2
+    Process ID:        %3
+    Primary User Name: %4
+    Primary Domain:    %5
+    Primary Logon ID:  %6
+    Client User Name:  %7
+    Client Domain:     %8
+    Client Logon ID:   %9
+    Accesses:          %10
+    Access Mask:       %11"
+596,Backup of data protection master key,"-Backup of data protection master key. 
+    Key Identifier:   %1
+    Recovery Server:  %2
+    Recovery Key ID:  %3
+    Failure Reason:   %4
+ By:
+    User Name:      %5
+    Domain Name:    %6
+    Logon ID:       %7"
+600,A process was assigned a primary token,"-A process was assigned a primary token.
+ Assigning Process Information:
+    Process ID:        %1
+    Image File Name:   %2
+    Primary User Name: %3
+    Primary Domain:    %4
+    Primary Logon ID:  %5
+
+ New Process Information:
+    Process ID:        %6
+    Image File Name:   %7
+    Target User Name:  %8
+    Target Domain:     %9
+    Target Logon ID:   %10"
+601,Attempt to install service,"-Attempt to install service:
+    Service Name:        %1
+    Service File Name:   %2
+    Service Type:        %3
+    Service Start Type:  %4
+    Service Account:     %5
+ By:
+    User Name:           %6
+    Domain:              %7
+    Logon ID:            %8"
+602,Scheduled Task created,"-Scheduled Task created:
+    File Name:      %1
+    Command:        %2
+    Triggers:       %3
+    Time:           %4 %5
+    Flags:          %6
+    Target User:    %7
+ By:
+    User:           %8
+    Domain:         %9
+    Logon ID:       %10"
+608,User Right Assigned,"-User Right Assigned:
+    User Right:     %1
+    Assigned To:    %2
+    Assigned By:
+      User Name:    %3
+      Domain:       %4
+      Logon ID:     %5"
+609,User Right Removed,"-User Right Removed:
+    User Right:     %1
+    Removed From:   %2
+    Removed By:
+      User Name:    %3
+      Domain:       %4
+      Logon ID:     %5"
+610,New Trusted Domain,"-New Trusted Domain:
+    Domain Name:    %1
+    Domain ID:  %2
+    Established By:
+      User Name:    %3
+      Domain:       %4
+      Logon ID: %5
+    Trust Type: %6
+    Trust Direction:    %7
+    Trust Attributes:   %8
+    SID Filtering:  %9"
+611,Trusted Domain Removed,"-Trusted Domain Removed:
+    Domain Name:    %1
+    Domain ID:  %2
+    Removed By:
+      User Name:    %3
+      Domain:       %4
+      Logon ID: %5"
+612,Audit Policy Change,"-Audit Policy Change:
+ New Policy:
+    Success Failure
+        %3      %4  Logon/Logoff
+        %5      %6  Object Access
+        %7      %8  Privilege Use
+        %13     %14 Account Management
+        %11     %12 Policy Change
+        %1      %2  System
+        %9      %10 Detailed Tracking
+        %15     %16 Directory Service Access
+        %17     %18 Account Logon
+
+ Changed By:
+      User Name:    %19
+      Domain Name:  %20
+      Logon ID: %21"
+613,IPSec Services started,"-IPSec Services started:     %1
+ Policy Source:     %2
+ %3"
+614,IPSec Services disabled,"-IPSec Services disabled:    %1
+ %2"
+616,IPSec Services encountered a potentially serious failure,"-IPSec Services encountered a potentially serious failure.
+ %1"
+617,Kerberos Policy Changed,"-Kerberos Policy Changed:
+ Changed By:
+      User Name:    %1
+      Domain Name:  %2
+      Logon ID: %3
+ Changes made:
+ ('--' means no changes, otherwise each change is shown as:
+ <ParameterName>: <new value> (<old value>))
+ %4"
+618,Encrypted Data Recovery Policy Changed,"-Encrypted Data Recovery Policy Changed:
+ Changed By:
+      User Name:    %1
+      Domain Name:  %2
+      Logon ID: %3
+ Changes made:
+ ('--' means no changes, otherwise each change is shown as:
+ <ParameterName>: <new value> (<old value>))
+ %4"
+619,Audit Security Object changed,"-Audit Security Object changed:
+    Primary User Name:  %1
+    Primary Domain: %2
+    Primary Logon ID:   %3
+    Client User Name:   %4
+    Client Domain:  %5
+    Client Logon ID:    %6
+    Original Security Descriptor:   %7
+    New Security Descriptor:    %8"
+620,Trusted Domain Information Modified,"-Trusted Domain Information Modified:
+    Domain Name:    %1
+    Domain ID:  %2
+    Modified By:
+      User Name:    %3
+      Domain:       %4
+      Logon ID: %5
+    Trust Type: %6
+    Trust Direction:    %7
+    Trust Attributes:   %8
+    SID Filtering:  %9"
+621,System Security Access Granted,"-System Security Access Granted:
+    Access Granted: %4
+    Account Modified:   %5
+    Assigned By:
+      User Name:    %1
+      Domain:       %2
+      Logon ID: %3"
+622,System Security Access Removed,"-System Security Access Removed:
+    Access Removed: %4
+    Account Modified:   %5
+    Removed By:
+      User Name:    %1
+      Domain:       %2
+      Logon ID: %3"
+623,System Audit Policy Change,"-System Audit Policy Change:
+    Category:   %1
+    Sub Category:   %2
+    Sub Category Guid:  %3
+    Changes:    %4
+
+ Changed By:
+    User Name:  %5
+    Domain Name:    %6
+    Logon ID:   %7"
+624,User Account Created,"-User Account Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges      %7
+ Attributes:
+    Sam Account Name:   %8
+    Display Name:   %9
+    User Principal Name:    %10
+    Home Directory: %11
+    Home Drive: %12
+    Script Path:    %13
+    Profile Path:   %14
+    User Workstations:  %15
+    Password Last Set:  %16
+    Account Expires:    %17
+    Primary Group ID:   %18
+    AllowedToDelegateTo:    %19
+    Old UAC Value:  %20
+    New UAC Value:  %21
+    User Account Control:   %22
+    User Parameters:    %23
+    Sid History:    %24
+    Logon Hours:    %25"
+626,User Account Enabled,"-User Account Enabled:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6"
+627,Change Password Attempt,"-Change Password Attempt:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+628,User Account password set,"-User Account password set:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6"
+629,User Account Disabled,"-User Account Disabled:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6"
+630,User Account Deleted,"-User Account Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+631,Security Enabled Global Group Created,"-Security Enabled Global Group Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+632,Security Enabled Global Group Member Added,"-Security Enabled Global Group Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+633,Security Enabled Global Group Member Removed,"-Security Enabled Global Group Member Removed:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+634,Security Enabled Global Group Deleted,"-Security Enabled Global Group Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+635,Security Enabled Local Group Created,"-Security Enabled Local Group Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+636,Security Enabled Local Group Member Added,"-Security Enabled Local Group Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+637,Security Enabled Local Group Member Removed,"-Security Enabled Local Group Member Removed:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+638,Security Enabled Local Group Deleted,"-Security Enabled Local Group Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+639,Security Enabled Local Group Changed,"-Security Enabled Local Group Changed:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+640,General Account Database Change,"-General Account Database Change:
+    Type of change: %1
+    Object Type:    %2
+    Object Name:    %3
+    Object ID:  %4
+    Caller User Name:   %5
+    Caller Domain:  %6
+    Caller Logon ID:    %7"
+641,Security Enabled Global Group Changed,"-Security Enabled Global Group Changed:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+642,User Account Changed,"-User Account Changed:
+    Target Account Name:    %2
+    Target Domain:  %3
+    Target Account ID:  %4
+    Caller User Name:   %5
+    Caller Domain:  %6
+    Caller Logon ID:    %7
+    Privileges: %8
+ Changed Attributes:
+    Sam Account Name:   %9
+    Display Name:   %10
+    User Principal Name:    %11
+    Home Directory: %12
+    Home Drive: %13
+    Script Path:    %14
+    Profile Path:   %15
+    User Workstations:  %16
+    Password Last Set:  %17
+    Account Expires:    %18
+    Primary Group ID:   %19
+    AllowedToDelegateTo:    %20
+    Old UAC Value:  %21
+    New UAC Value:  %22
+    User Account Control:   %23
+    User Parameters:    %24
+    Sid History:    %25
+    Logon Hours:    %26"
+643,Domain Policy Changed,"-Domain Policy Changed: %1 modified
+    Domain Name:        %2
+    Domain ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Min. Password Age:  %8
+    Max. Password Age:  %9
+    Force Logoff:   %10
+    Lockout Threshold:  %11
+    Lockout Observation Window: %12
+    Lockout Duration:   %13
+    Password Properties:    %14
+    Min. Password Length:   %15
+    Password History Length:    %16
+    Machine Account Quota:  %17
+    Mixed Domain Mode:  %18
+    Domain Behavior Version:    %19
+    OEM Information:    %20"
+644,User Account Locked Out,"-User Account Locked Out:
+    Target Account Name:    %1
+    Target Account ID:  %3
+    Caller Machine Name:    %2
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6"
+645,Computer Account Created,"-Computer Account Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges      %7
+ Attributes:
+    Sam Account Name:   %8
+    Display Name:   %9
+    User Principal Name:    %10
+    Home Directory: %11
+    Home Drive: %12
+    Script Path:    %13
+    Profile Path:   %14
+    User Workstations:  %15
+    Password Last Set:  %16
+    Account Expires:    %17
+    Primary Group ID:   %18
+    AllowedToDelegateTo:    %19
+    Old UAC Value:  %20
+    New UAC Value:  %21
+    User Account Control:   %22
+    User Parameters:    %23
+    Sid History:    %24
+    Logon Hours:    %25
+    DNS Host Name:  %26
+    Service Principal Names:    %27"
+646,Computer Account Changed,"-Computer Account Changed:
+    %1
+    Target Account Name:    %2
+    Target Domain:  %3
+    Target Account ID:  %4
+    Caller User Name:   %5
+    Caller Domain:  %6
+    Caller Logon ID:    %7
+    Privileges: %8
+ Changed Attributes:
+    Sam Account Name:   %9
+    Display Name:   %10
+    User Principal Name:    %11
+    Home Directory: %12
+    Home Drive: %13
+    Script Path:    %14
+    Profile Path:   %15
+    User Workstations:  %16
+    Password Last Set:  %17
+    Account Expires:    %18
+    Primary Group ID:   %19
+    AllowedToDelegateTo:    %20
+    Old UAC Value:  %21
+    New UAC Value:  %22
+    User Account Control:   %23
+    User Parameters:    %24
+    Sid History:    %25
+    Logon Hours:    %26
+    DNS Host Name:  %27
+    Service Principal Names:    %28"
+647,Computer Account Deleted,"-Computer Account Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+648,Security Disabled Local Group Created,"-Security Disabled Local Group Created:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+649,Security Disabled Local Group Changed,"-Security Disabled Local Group Changed:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+650,Security Disabled Local Group Member Added,"-Security Disabled Local Group Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+651,Security Disabled Local Group Member Removed,"-Security Disabled Local Group Member Removed:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+652,Security Disabled Local Group Deleted,"-Security Disabled Local Group Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+653,Security Disabled Global Group Created,"-Security Disabled Global Group Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+654,Security Disabled Global Group Changed,"-Security Disabled Global Group Changed:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+655,Security Disabled Global Group Member Added,"-Security Disabled Global Group Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+656,Security Disabled Global Group Member Removed,"-Security Disabled Global Group Member Removed:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+657,Security Disabled Global Group Deleted,"-Security Disabled Global Group Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+658,Security Enabled Universal Group Created,"-Security Enabled Universal Group Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+659,Security Enabled Universal Group Changed,"-Security Enabled Universal Group Changed:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+660,Security Enabled Universal Group Member Added,"-Security Enabled Universal Group Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+661,Security Enabled Universal Group Member Removed,"-Security Enabled Universal Group Member Removed:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+662,Security Enabled Universal Group Deleted,"-Security Enabled Universal Group Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+663,Security Disabled Universal Group Created,"-Security Disabled Universal Group Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+664,Security Disabled Universal Group Changed,"-Security Disabled Universal Group Changed:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+665,Security Disabled Universal Group Member Added,"-Security Disabled Universal Group Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+666,Security Disabled Universal Group Member Removed,"-Security Disabled Universal Group Member Removed:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+667,Security Disabled Universal Group Deleted,"-Security Disabled Universal Group Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+668,Group Type Changed,"-Group Type Changed:
+    %1
+    Target Account Name:    %2
+    Target Domain:  %3
+    Target Account ID:  %4
+    Caller User Name:   %5
+    Caller Domain:  %6
+    Caller Logon ID:    %7
+    Privileges: %8"
+669,Add SID History,"-Add SID History:
+    Source Account Name:    %1
+    Source Account ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9
+    SidList:    %10"
+670,Add SID History,"-Add SID History:
+    Source Account Name:    %1
+    Target Account Name:    %2
+    Target Domain:  %3
+    Target Account ID:  %4
+    Caller User Name:   %5
+    Caller Domain:  %6
+    Caller Logon ID:    %7
+    Privileges: %8"
+671,User Account Unlocked,"-User Account Unlocked:
+    Target Account Name:    %1
+    Target Domain:      %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6"
+672,Authentication Ticket Request,"-Authentication Ticket Request:
+    User Name:      %1
+    Supplied Realm Name:    %2
+    User ID:            %3
+    Service Name:       %4
+    Service ID:     %5
+    Ticket Options:     %6
+    Result Code:        %7
+    Ticket Encryption Type: %8
+    Pre-Authentication Type:    %9
+    Client Address:     %10
+    Certificate Issuer Name:    %11
+    Certificate Serial Number:  %12
+    Certificate Thumbprint: %13"
+673,Service Ticket Request,"-Service Ticket Request:
+    User Name:      %1
+    User Domain:        %2
+    Service Name:       %3
+    Service ID:     %4
+    Ticket Options:     %5
+    Ticket Encryption Type: %6
+    Client Address:     %7
+    Failure Code:       %8
+    Logon GUID:     %9
+    Transited Services: %10"
+674,Service Ticket Renewed,"-Service Ticket Renewed:
+    User Name:  %1
+    User Domain:    %2
+    Service Name:   %3
+    Service ID: %4
+    Ticket Options: %5
+    Ticket Encryption Type: %6
+    Client Address: %7"
+675,Pre,"-Pre-authentication failed:
+    User Name:  %1
+    User ID:        %2
+    Service Name:   %3
+    Pre-Authentication Type:    %4
+    Failure Code:   %5
+    Client Address: %6
+    Certificate Issuer Name:    %7
+    Certificate Serial Number:  %8
+    Certificate Thumbprint: %9"
+676,Authentication Ticket Request Failed,"-Authentication Ticket Request Failed:
+    User Name:  %1
+    Supplied Realm Name:    %2
+    Service Name:   %3
+    Ticket Options: %4
+    Failure Code:   %5
+    Client Address: %6"
+677,Service Ticket Request Failed,"-Service Ticket Request Failed:
+    User Name:  %1
+    User Domain:    %2
+    Service Name:   %3
+    Ticket Options: %4
+    Failure Code:   %5
+    Client Address: %6"
+678,Account Mapped for Logon,"-Account Mapped for Logon.
+ Mapping Attempted By:
+    %1
+ Client Name:
+    %2
+    Mapped Name:
+    %3"
+679,The name could not be mapped for logon,"-The name:
+    %2
+ could not be mapped for logon by:  %1"
+680,Logon attempt,"-Logon attempt by:   %1
+ Logon account: %2
+ Source Workstation:    %3
+ Error Code:    %4"
+681,The logon to account from workstation,"-The logon to account: %2
+ by: %1
+ from workstation: %3
+ failed. The error code was: %4"
+682,Session reconnected to winstation,"-Session reconnected to winstation:
+    User Name:  %1
+    Domain:     %2
+    Logon ID:       %3
+    Session Name:   %4
+    Client Name:    %5
+    Client Address: %6"
+683,Session disconnected from winstation,"-Session disconnected from winstation:
+    User Name:  %1
+    Domain:     %2
+    Logon ID:       %3
+    Session Name:   %4
+    Client Name:    %5
+    Client Address: %6"
+684,Set ACLs of members in administrators groups,"-Set ACLs of members in administrators groups:
+    Target Account Name:    %1
+    Target Domain:      %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+685,Account Name Changed,"-Account Name Changed:
+    Old Account Name:   %1
+    New Account Name:   %2
+    Target Domain:      %3
+    Target Account ID:  %4
+    Caller User Name:   %5
+    Caller Domain:  %6
+    Caller Logon ID:    %7
+    Privileges: %8"
+686,Password of the following user accessed,"-Password of the following user accessed:
+    Target User Name:   %1
+    Target User Domain:     %2
+ By user:
+    Caller User Name:   %3
+    Caller Domain:      %4
+    Caller Logon ID:        %5"
+687,Basic Application Group Created,"-Basic Application Group Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+688,Basic Application Group Changed,"-Basic Application Group Changed:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+689,Basic Application Group Member Added,"-Basic Application Group Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+690,Basic Application Group Member Removed,"-Basic Application Group Member Removed:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+691,Basic Application Group Non,"-Basic Application Group Non-Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+692,Basic Application Group Non,"-Basic Application Group Non-Member Removed:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+693,Basic Application Group Deleted,"-Basic Application Group Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+694,LDAP Query Group Created,"-LDAP Query Group Created:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+695,LDAP Query Group Changed,"-LDAP Query Group Changed:
+    New Account Name:   %1
+    New Domain: %2
+    New Account ID: %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7
+ Changed Attributes:
+    Sam Account Name:   %8
+    Sid History:    %9"
+696,LDAP Query Group Deleted,"-LDAP Query Group Deleted:
+    Target Account Name:    %1
+    Target Domain:  %2
+    Target Account ID:  %3
+    Caller User Name:   %4
+    Caller Domain:  %5
+    Caller Logon ID:    %6
+    Privileges: %7"
+697,Password Policy Checking API is called,"-Password Policy Checking API is called:
+    Caller Username:    %1
+    Caller Domain:  %2
+    Caller Logon ID:    %3
+    Caller Workstation: %4
+    Provided User Name (unauthenticated):   %5
+    Status Code:    %6"
+698,An attempt to set the Directory Services Restore Mode administrator password has been made,"-An attempt to set the Directory Services Restore Mode administrator password has been made.
+    Caller Username:    %1
+    Caller Domain:  %2
+    Caller Logon ID:    %3
+    Caller Workstation: %4
+    Status Code:    %5"
+699,RODC SpecifiC Local Group Member Added,"-RODC SpecifiC Local Group Member Added:
+    Member Name:    %1
+    Member ID:  %2
+    Target Account Name:    %3
+    Target Domain:  %4
+    Target Account ID:  %5
+    Caller User Name:   %6
+    Caller Domain:  %7
+    Caller Logon ID:    %8
+    Privileges: %9"
+800,One or more rows have been deleted from the certificate database,"-One or more rows have been deleted from the certificate database.
+
+ Table ID:  %1
+ Filter:    %2
+ Rows Deleted:  %3"
+801,Role separation enabled,-Role separation enabled:    %1
+802,Certificate Services template,"-Certificate Services template:
+%1 v%2 (Schema V%3)
+%4
+%5
+
+Domain Controller:  %6
+
+Template Content:
+%7
+Security Descriptor:
+%8"
+803,Certificate Services template updated,"-Certificate Services template updated:
+%1 v%2 (Schema V%3)
+%4
+%5
+
+Domain Controller:  %6
+
+Old Template Content:
+%8
+
+New Template Content:
+%7"
+804,Certificate Services template security updated,"-Certificate Services template security updated:
+%1 v%2 (Schema V%3)
+%4
+%5
+
+Domain Controller:  %6
+
+Old Template Content:
+%9
+Old Security Descriptor:
+%10
+
+New Template Content:
+%7
+New Security Descriptor:
+%8"
+805,Configuration of security log for this session,"-Configuration of security log for this session:     Maximum Log Size (KB): %1
+    Action to take on reaching max log size: %2
+    Event age limit in days: %3"
+806,Per User Audit Policy table created,"-Per User Audit Policy table created.
+    Number of elements: %1
+    Policy ID:  %2"
+807,Per user auditing policy set for user,"-Per user auditing policy set for user:
+    Target user:    %1
+    Policy ID:  %2
+    Category Settings:
+     System:    %3
+     Logon: %4
+     Object Access  %5
+     Privilege Use: %6
+     Detailed Tracking: %7
+     Policy Change: %8
+     Account Management:    %9
+     DS Access: %10
+     Account Logon: %11"
+808,A security event source has attempted to register,"-A security event source has attempted to register.
+    Primary User Name:  %1
+    Primary Domain: %2
+    Primary Logon ID:   %3
+    Client User Name:   %4
+    Client Domain:  %5
+    Client Logon ID:    %6
+    Source Name:    %7
+    Process Id: %8
+    Event Source Id:    %9
+    Image File Name:    %10"
+809,A security event source has attempted to unregister,"-A security event source has attempted to unregister.
+    Primary User Name:  %1
+    Primary Domain: %2
+    Primary Logon ID:   %3
+    Client User Name:   %4
+    Client Domain:  %5
+    Client Logon ID:    %6
+    Source Name:    %7
+    Process Id: %8
+    Event Source Id:    %9
+    Image File Name:    %10"
+848,The following policy was active when the Windows Firewall started,"-The following policy was active when the Windows Firewall started. 
+
+Group Policy applied: %1 
+Profile used: %2 
+Operational mode: %3 
+Allow remote administration: %4 
+Allow unicast responses to multicast/broadcast traffic: %5 
+Security Logging: 
+     Log dropped packets: %6 
+     Log successful connections %7"
+849,A rule was listed when the Windows Firewall started,"-A rule was listed when the Windows Firewall started. 
+
+Profile used: %1 
+Rule: 
+    Rule Id: %2 
+    Rule Name: %3"
+850,A change has been made to Windows Firewall exception list,"-A change has been made to Windows Firewall exception list. A rule was added. 
+
+Profile changed: %1 
+Added Rule: 
+    Rule Id: %2 
+    Rule Name: %3"
+851,A change has been made to Windows Firewall exception list. A rule was modified,"-A change has been made to Windows Firewall exception list. A rule was modified. 
+
+Profile changed: %1 
+Modified Rule: 
+    Rule Id: %2 
+    Rule Name: %3"
+852,A change has been made to Windows Firewall exception list. A rule was deleted,"-A change has been made to Windows Firewall exception list. A rule was deleted. 
+
+Profile changed: %1 
+Deleted Rule: 
+    Rule Id: %2 
+    Rule Name: %3"
+853,A change has been made to Windows Firewall settings. Settings restored to factory defaults.   ,-A change has been made to Windows Firewall settings. Settings restored to factory defaults.
+854,A Windows Firewall setting has changed,"-A Windows Firewall setting has changed. 
+
+Profile changed: %1 
+New Setting: 
+    Type: %2 
+    Value: %3"
+855,A rule has been ignored because its major version number was not recognized by Windows Firewall,"-A rule has been ignored because its major version number was not recognized by Windows Firewall. 
+
+Profile: %1 
+Ignored Rule: 
+     Id:%2 
+     Name:%3"
+856,A rule has been partially ignored because its minor version number was not recognized by Windows Firewall,"-A rule has been partially ignored because its minor version number was not recognized by Windows Firewall. 
+
+Profile: %1 
+Partially Ignored Rule: 
+     Id:%2 
+     Name:%3"
+857,A rule has been rejected by Windows Firewall,"-A rule has been rejected by Windows Firewall. 
+
+Profile: %1 
+Reason for Rejection:%2 
+Rule: 
+     Id:%3 
+     Name:%4"
+858,Windows Firewall group policy settings have been applied,-Windows Firewall group policy settings have been applied.
+859,The Windows Firewall group policy settings have been removed.,-The Windows Firewall group policy settings have been removed.
+1100,The event logging service has shut down,-The event logging service has shut down
+1102,The audit log was cleared,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId"
+4608,Windows is starting up,"-Windows is starting up.
+
+This event is logged when LSASS.EXE starts and the auditing subsystem is initialized."
+4609,Windows is shutting down,"-Windows is shutting down.
+All logon sessions will be terminated by this shutdown."
+4610,An authentication package has been loaded by the Local Security Authority,AuthenticationPackageName
+4611,A trusted logon process has been registered with the Local Security Authority,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,LogonProcessName"
+4612,"Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits","-Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits.
+
+Number of audit messages discarded: %1
+
+This event is generated when audit queues are filled and events must be discarded.  This most commonly occurs when security events are being generated faster than they are being written to disk, or when the auditing system loses connectivity to the event log, such as when the event log service is stopped."
+4614,A notification package has been loaded by the Security Account Manager,NotificationPackageName
+4615,Invalid use of LPC port,"-Invalid use of LPC port.
+
+Subject:
+    Security ID:      %1
+    Account Name:     %2
+    Account Domain:   %3
+    Logon ID:         %4
+
+Process Information:
+    PID:              %7
+    Name:             %8
+
+Invalid Use:          %5
+
+LPC Server Port Name: %6
+
+Windows Local Security Authority (LSA) communicates with the Windows kernel using Local Procedure Call (LPC) ports. If you see this event, an application has inadvertently or intentionally accessed this port which is reserved exclusively for LSA's use. The application (process) should be investigated to ensure that it is not attempting to tamper with this communications channel."
+4616,The system time was changed,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PreviousTime,NewTime,ProcessId,ProcessName"
+4618,A monitored security event pattern has occurred.,"EventId,ComputerName,TargetUserSid,TargetUserName,TargetUserDomain,TargetLogonId,EventCount,Duration"
+4621,Administrator recovered system from CrashOnAuditFail.,"-Administrator recovered system from CrashOnAuditFail. Users who are not administrators will now be allowed to log on. Some auditable activity might not have been recorded.
+
+Value of CrashOnAuditFail:  %1
+
+This event is logged after a system reboots following CrashOnAuditFail."
+4622,A security package has been loaded by the Local Security Authority,SecurityPackageName
+4624,An account was successfully logged on,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId,LogonType,LogonProcessName,AuthenticationPackageName,WorkstationName,LogonGuid,TransmittedServices,LmPackageName,KeyLength,ProcessId,ProcessName,IpAddress,IpPort,ImpersonationLevel,RestrictedAdminMode,TargetOutboundUserName,TargetOutboundDomainName,VirtualAccount,TargetLinkedLogonId,ElevatedToken"
+4625,An account failed to log on,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TargetUserSid,TargetUserName,TargetDomainName,Status,FailureReason,SubStatus,LogonType,LogonProcessName,AuthenticationPackageName,WorkstationName,TransmittedServices,LmPackageName,KeyLength,ProcessId,ProcessName,IpAddress,IpPort"
+4626,User / Device claims information,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId,LogonType,EventIdx,EventCountTotal,UserClaims,DeviceClaims"
+4627,Group membership information,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId,LogonType,EventIdx,EventCountTotal,GroupMembership"
+4634,An account was logged off,"TargetUserSid,TargetUserName,TargetDomainName,LogonID,LogonType"
+4646,n/a,-%1
+4647,User initiated logoff,"TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId"
+4648,A logon was attempted using explicit credentials,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,LogonGuid,TargetUserName,TargetDomainName,TargetLogonGuid,TargetServerName,TargetInfo,ProcessId,ProcessName,IpAddress,IpPort"
+4649,A replay attack was detected,"-A replay attack was detected.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Credentials Which Were Replayed:
+    Account Name:       %5
+    Account Domain:     %6
+
+Process Information:
+    Process ID:         %12
+    Process Name:       %13
+
+Network Information:
+    Workstation Name:   %10
+
+Detailed Authentication Information:
+    Request Type:       %7
+    Logon Process:      %8
+    Authentication Package: %9
+    Transited Services: %11
+
+This event indicates that a Kerberos replay attack was detected- a request was received twice with identical information. This condition could be caused by network misconfiguration."
+4650,An IPsec main mode security association was established,"-An IPsec main mode security association was established. Extended mode was not enabled.  Certificate authentication was not used.
+
+Local Endpoint:
+    Principal Name:     %1
+    Network Address:    %3
+    Keying Module Port: %4
+
+Remote Endpoint:
+    Principal Name:     %2
+    Network Address:    %5
+    Keying Module Port: %6
+
+Security Association Information:
+    Lifetime (minutes): %12
+    Quick Mode Limit:   %13
+    Main Mode SA ID:    %17
+
+Cryptographic Information:
+    Cipher Algorithm:   %9
+    Integrity Algorithm:    %10
+    Diffie-Hellman Group:   %11
+
+Additional Information:
+    Keying Module Name:     %7
+    Authentication Method:  %8
+    Role:                   %14
+    Impersonation State:    %15
+    Main Mode Filter ID:    %16"
+4651,An IPsec main mode security association was established,"-An IPsec main mode security association was established. Extended mode was not enabled.  A certificate was used for authentication.
+
+Local Endpoint:
+    Principal Name:     %1
+    Network Address:    %9
+    Keying Module Port: %10
+
+Local Certificate:
+    SHA Thumbprint:     %2
+    Issuing CA:         %3
+    Root CA:            %4
+
+Remote Endpoint:
+    Principal Name:     %5
+    Network Address:    %11
+    Keying Module Port: %12
+
+Remote Certificate:
+    SHA thumbprint:     %6
+    Issuing CA:         %7
+    Root CA:            %8
+
+Cryptographic Information:
+    Cipher Algorithm:       %15
+    Integrity Algorithm:    %16
+    Diffie-Hellman Group:   %17
+
+Security Association Information:
+    Lifetime (minutes): %18
+    Quick Mode Limit:   %19
+    Main Mode SA ID:    %23
+
+Additional Information:
+    Keying Module Name:     %13
+    Authentication Method:  %14
+    Role:                   %20
+    Impersonation State:    %21
+    Main Mode Filter ID:    %22"
+4652,An IPsec main mode negotiation failed,"-An IPsec main mode negotiation failed.
+
+
+Local Endpoint:
+    Principal Name:     %1
+    Network Address:    %9
+    Keying Module Port: %10
+
+Local Certificate:
+    SHA Thumbprint:     %2
+    Issuing CA:         %3
+    Root CA:            %4
+
+Remote Endpoint:
+    Principal Name:     %5
+    Network Address:    %11
+    Keying Module Port: %12
+
+Remote Certificate:
+    SHA thumbprint:     %6
+    Issuing CA:         %7
+    Root CA:            %8
+
+Additional Information:
+    Keying Module Name:     %13
+    Authentication Method:  %16
+    Role:                   %18
+    Impersonation State:    %19
+    Main Mode Filter ID:    %20
+
+Failure Information:
+    Failure Point:      %14
+    Failure Reason:     %15
+    State:              %17
+    Initiator Cookie:   %21
+    Responder Cookie:   %22"
+4653,An IPsec main mode negotiation failed,"LocalMMPrincipalName,RemoteMMPrincipalName,LocalAddress,LocalKeyModPort,RemoteAddress,RemoteKeyModPort,KeyModName,FailurePoint,FailureReason,MMAuthMethod,State,Role,MMImpersonationState,MMFilterID,InitiatorCookie,ResponderCookie"
+4654,An IPsec quick mode negotiation failed,"-An IPsec quick mode negotiation failed.
+
+Local Endpoint:
+    Network Address:        %1
+    Network Address mask:   %2
+    Port:                   %3
+    Tunnel Endpoint:        %4
+
+Remote Endpoint:
+    Network Address:        %5
+    Address Mask:           %6
+    Port:                   %7
+    Tunnel Endpoint:        %8
+    Private Address:        %10
+
+Additional Information:
+    Protocol:               %9
+    Keying Module Name:     %11
+    Mode:                   %14
+    Role:                   %16
+    Quick Mode Filter ID:   %18
+    Main Mode SA ID:        %19
+
+Failure Information:
+    State:                  %15
+    Message ID:             %17
+    Failure Point:          %12
+    Failure Reason:         %13"
+4655,An IPsec main mode security association ended,"-An IPsec main mode security association ended.
+
+Local Network Address:      %1
+Remote Network Address:     %2
+Keying Module Name:         %3
+Main Mode SA ID:            %4"
+4656,A handle to an object was requested,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,ObjectType,ObjectName,HandleId,TransactionId,AccessList,AccessReason,AccessMask,PrivilegeList,RestrictedSidCount,ProcessId,ProcessName,ResourceAttributes"
+4657,A registry value was modified,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectName,ObjectValueName,HandleId,OperationType,OldValueType,OldValue,NewValueType,NewValue,ProcessId,ProcessName"
+4658,The handle to an object was closed,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,HandleId,ProcessId,ProcessName"
+4659,A handle to an object was requested with intent to delete,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,ObjectType,ObjectName,HandleId,TransactionIdf,AccessList,AccessMask,PrivilegeList,ProcessId"
+4660,An object was deleted,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,HandleId,ProcessId,ProcessName,TransactionId"
+4661,A handle to an object was requested,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,ObjectType,ObjectName,HandleId,TransactionId,AccessList,AccessMask,PrivilegeList,Properties,RestrictedSidCount,ProcessId,ProcessName"
+4662,An operation was performed on an object,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,ObjectType,ObjectName,OperationType,HandleId,AccessList,AccessMask,Properties,AdditionalInfo,Additional Info2"
+4663,An attempt was made to access an object,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,ObjectType,ObjectName,HandleId,AccessList,AccessMask,ProcessId,ProcessName,Resource Attributes"
+4664,An attempt was made to create a hard link,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,FileName,LinkName,TransactionId"
+4665,An attempt was made to create an application client context,"-An attempt was made to create an application client context.
+
+Subject:
+    Client Name:                %3
+    Client Domain:              %4
+    Client Context ID:          %5
+
+Application Information:
+    Application Name:           %1
+    Application Instance ID:    %2
+
+Status:                         %6"
+4666,An application attempted an operation,"-An application attempted an operation:
+
+Subject:
+    Client Name:        %5
+    Client Domain:      %6
+    Client Context ID:  %7
+
+Object:
+    Object Name:        %3
+    Scope Names:        %4
+
+Application Information:
+    Application Name:           %1
+    Application Instance ID:    %2
+
+Access Request Information:
+    Role:               %8
+    Groups:             %9
+    Operation Name:     %10 (%11)"
+4667,An application client context was deleted,"-An application client context was deleted.
+
+Subject:
+    Client Name:        %3
+    Client Domain:      %4
+    Client Context ID:  %5
+
+Application Information:
+    Application Name:           %1
+    Application Instance ID:    %2"
+4668,An application was initialized,"-An application was initialized.
+
+Subject:
+    Client Name:        %3
+    Client Domain:      %4
+    Client ID:          %5
+
+Application Information:
+    Application Name:           %1
+    Application Instance ID:    %2
+
+Additional Information:
+    Policy Store URL:   %6"
+4670,Permissions on an object were changed,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,ObjectType,ObjectName,HandleId,OldSd,NewSd,ProcessId,ProcessName"
+4671,An application attempted to access a blocked ordinal through the TBS,"-An application attempted to access a blocked ordinal through the TBS.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Ordinal:                %5"
+4672,Special privileges assigned to new logon,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4673,A privileged service was called,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,Service,PrivilegeList,ProcessId,ProcessName"
+4674,An operation was attempted on a privileged object,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,ObjectType,ObjectName,HandleId,AccessMask,PrivilegeList,ProcessId,ProcessName"
+4675,SIDs were filtered,"-SIDs were filtered.
+
+Target Account:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+
+Trust Information:
+    Trust Direction:    %4
+    Trust Attributes:   %5
+    Trust Type:         %6
+    TDO Domain SID:     %7
+
+Filtered SIDs:          %8"
+4688,A new process has been created,"SubjectUserSid,SubjectUserName ,SubjectDomainName,SubjectLogonId,NewProcessId,NewProcessName,TokenElevationType,ProcessId,CommandLine,TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId,ParentProcessName,MandatoryLabel"
+4689,A process has exited,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,Status,ProcessId,ProcessName"
+4690,An attempt was made to duplicate a handle to an object,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,SourceHandleId,SourceProcessId,TargetHandleId,TargetProcessId"
+4691,Indirect access to an object was requested,"-Indirect access to an object was requested.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Object:
+    Object Type:        %5
+    Object Name:        %6
+
+Process Information:
+    Process ID:         %9
+
+Access Request Information:
+    Accesses:           %7
+    Access Mask:        %8"
+4692,Backup of data protection master key was attempted,"-Backup of data protection master key was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Key Information:
+    Key Identifier:     %5
+    Recovery Server:    %6
+    Recovery Key ID:    %7
+
+Status Information:
+    Status Code:        %8"
+4693,Recovery of data protection master key was attempted,"-Recovery of data protection master key was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Key Information:
+    Key Identifier:     %5
+    Recovery Server:    %6
+    Recovery Key ID:    %8
+    Recovery Reason:    %7
+
+Status Information:
+    Status Code:        %9"
+4694,Protection of auditable protected data was attempted,"-Protection of auditable protected data was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Protected Data:
+    Data Description:       %6
+    Key Identifier:         %5
+    Protected Data Flags:   %7
+    Protection Algorithms:  %8
+
+Status Information:
+    Status Code:            %9"
+4695,Unprotection of auditable protected data was attempted,"-Unprotection of auditable protected data was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Protected Data:
+    Data Description:       %6
+    Key Identifier:         %5
+    Protected Data Flags:   %7
+    Protection Algorithms:  %8
+
+Status Information:
+    Status Code:            %9"
+4696,A primary token was assigned to process,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId,TargetProcessId,TargetProcessName,ProcessId,TargetProcessName"
+4697,A service was installed in the system,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ServiceName,ServiceFileName,ServiceType,ServiceStartType,ServiceAccount"
+4698,A scheduled task was created,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TaskName,TaskContent"
+4699,A scheduled task was deleted,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TaskName,TaskContent"
+4700,A scheduled task was enabled,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TaskName,TaskContent"
+4701,A scheduled task was disabled,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TaskName,TaskContent"
+4702,A scheduled task was updated,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TaskName,TaskContentNew"
+4703,A token right was adjusted,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId,ProcessName,ProcessId,EnabledPrivilegeList,DisabledPrivilegeList"
+4704,A user right was assigned,"-A user right was assigned.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Target Account:
+    Account Name:       %5
+
+New Right:
+    User Right:         %6"
+4705,A user right was removed,"-A user right was removed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Target Account:
+    Account Name:       %5
+
+Removed Right:
+    User Right:     %6"
+4706,A new trust was created to a domain,"-A new trust was created to a domain.
+
+Subject:
+    Security ID:        %3
+    Account Name:       %4
+    Account Domain:     %5
+    Logon ID:           %6
+
+Trusted Domain:
+    Domain Name:        %1
+    Domain ID:          %2
+
+Trust Information:
+    Trust Type:         %7
+    Trust Direction:    %8
+    Trust Attributes:   %9
+    SID Filtering:      %10"
+4707,A trust to a domain was removed,"-A trust to a domain was removed.
+
+Subject:
+    Security ID:        %3
+    Account Name:       %4
+    Account Domain:     %5
+    Logon ID:           %6
+
+Domain Information:
+    Domain Name:        %1
+    Domain ID:          %2"
+4709,The IPsec Policy Agent service was started,"-The IPsec Policy Agent service was started.
+
+%1
+
+Policy Source:  %2
+
+%3"
+4710,The IPsec Policy Agent service was disabled,"-The IPsec Policy Agent service was disabled.
+
+%1
+%2"
+4711,PAStore Engine,-%1
+4712,IPsec Policy Agent encountered a potentially serious failure,"-IPsec Policy Agent encountered a potentially serious failure.
+%1"
+4713,Kerberos policy was changed,"-Kerberos policy was changed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Changes Made:
+('--' means no changes, otherwise each change is shown as:
+(Parameter Name):   (new value) (old value))
+%5"
+4714,Data Recovery Agent group policy for Encrypting File System (EFS) has changed,-Data Recovery Agent group policy for Encrypting File System (EFS) has changed. The new changes have been applied.
+4715,The audit policy (SACL) on an object was changed,"-The audit policy (SACL) on an object was changed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Audit Policy Change:
+    Original Security Descriptor:   %5
+    New Security Descriptor:        %6"
+4716,Trusted domain information was modified,"-Trusted domain information was modified.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Trusted Domain:
+    Domain Name:        %5
+    Domain ID:          %6
+
+New Trust Information:
+    Trust Type:         %7
+    Trust Direction:    %8
+    Trust Attributes:   %9
+    SID Filtering:      %10"
+4717,System security access was granted to an account,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TargetSid,AccessGranted"
+4718,System security access was removed from an account,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TargetSid,AccessRemoved"
+4719,System audit policy was changed,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,CategoryId,SubcategoryId,SubcategoryGuid,AuditPolicyChanges"
+4720,A user account was created,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,DisplayName,UserPrincipalName,HomeDirectory,HomePath,ScriptPath,ProfilePath,UserWorkstations,PasswordLastSet,AccountExpires,PrimaryGroupId,AllowedToDelegateTo,OldUacValue,NewUacValue,UserAccountControl,UserParameters,SidHistory,LogonHours"
+4722,A user account was enabled,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId"
+4723,An attempt was made to change an account's password,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4724,An attempt was made to reset an account's password,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainNamec,SubjectLogonId"
+4725,A user account was disabled,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId"
+4726,A user account was deleted,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4727,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4728,A member was added to a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4729,A member was removed from a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4730,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4731,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4732,A member was added to a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4733,A member was removed from a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4734,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4735,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4737,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4738,A user account was changed,"Dummy,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,DisplayName,UserPrincipalName,HomeDirectory,HomePath,ScriptPath,ProfilePath,UserWorkstations,PasswordLastSet,AccountExpires,PrimaryGroupId,AllowedToDelegateTo,OldUacValue,NewUacValue,UserAccountControl,UserParameters,SidHistory,LogonHours"
+4739,Domain Policy was changed,"-Domain Policy was changed.
+
+Change Type:            %1 modified
+
+Subject:
+    Security ID:        %4
+    Account Name:       %5
+    Account Domain:     %6
+    Logon ID:           %7
+
+Domain:
+    Domain Name:        %2
+    Domain ID:          %3
+
+Changed Attributes:
+    Min. Password Age:  %9
+    Max. Password Age:  %10
+    Force Logoff:       %11
+    Lockout Threshold:  %12
+    Lockout Observation Window: %13
+    Lockout Duration:           %14
+    Password Properties:        %15
+    Min. Password Length:       %16
+    Password History Length:    %17
+    Machine Account Quota:      %18
+    Mixed Domain Mode:          %19
+    Domain Behavior Version:    %20
+    OEM Information:            %21
+
+Additional Information:
+    Privileges:                 %8"
+4740,A user account was locked out,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId"
+4741,A computer account was created,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,DisplayName,UserPrincipalName,HomeDirectory,HomePath,ScriptPath,ProfilePath,UserWorkstations,PasswordLastSet,AccountExpires,PrimaryGroupId,AllowedToDelegateTo,OldUacValue,NewUacValue,UserAccountControl,UserParameters,SidHistory,LogonHours,DnsHostName,ServicePrincipalNames"
+4742,A computer account was changed,"ComputerAccountChange,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,DisplayName,UserPrincipalName,HomeDirectory,HomePath,ScriptPath,ProfilePath,UserWorkstations,PasswordLastSet,AccountExpires,PrimaryGroupId,AllowedToDelegateTo,OldUacValue,NewUacValue,UserAccountControl,UserParameters,SidHistory,LogonHours,DnsHostName,ServicePrincipalNames"
+4743,A computer account was deleted,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4744,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4745,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4746,A member was added to a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4747,A member was removed from a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4748,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4749,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4750,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4751,A member was added to a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4752,A member was removed from a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSidSubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4753,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4754,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4755,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4756,A member was added to a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4757,A member was removed from a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4758,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4759,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4760,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList,SamAccountName,SidHistory"
+4761,A member was added to a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4762,A member was removed from a security,"MemberName,MemberSid,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4763,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4764,A group’s type was changed,"GroupTypeChange,TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4765,SID History was added to an account,"-SID History was added to an account.
+
+Subject:
+    Security ID:        %6
+    Account Name:       %7
+    Account Domain:     %8
+    Logon ID:       %9
+
+Target Account:
+    Security ID:        %5
+    Account Name:       %3
+    Account Domain:     %4
+
+Source Account:
+    Security ID:        %2
+    Account Name:       %1
+
+Additional Information:
+    Privileges:     %10
+    SID List:           %11"
+4766,An attempt to add SID History to an account failed,"-An attempt to add SID History to an account failed.
+
+Subject:
+    Security ID:
+    Account Name:       %5
+    Account Domain:     %6
+    Logon ID:       %7
+
+Target Account:
+    Security ID:        %4
+    Account Name:       %2
+    Account Domain:     %3
+
+Source Account
+    Account Name:       %1
+
+Additional Information:
+    Privileges:     %8"
+4767,A user account was unlocked,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId"
+4768,This event generates every time Key Distribution Center issues a Kerberos Ticket Granting Ticket (TGT).,"TargetUserName,TargetDomainName,TargetSid,ServiceName,ServiceSid,TicketOptions,Status,TicketEncryptionType,PreAuthType,IpAddress,IpPort,CertIssuerName,CertSerialNumber,CertThumbprint"
+4769,A Kerberos service ticket was requested,"TargetUserName,TargetDomainName,ServiceName,ServiceSid,TicketOptions,TicketEncryptionType,IpAddress,IpPort,Status,LogonGuid,TransmittedServices"
+4770,A Kerberos service ticket was renewed,"TargetUserName,TargetDomainName,ServiceName,ServiceSid,TicketOptions,TicketEncryptionType,IpAddress,IpPort"
+4771,Kerberos pre,"TargetUserName,TargetSid,ServiceName,TicketOptions,Status,PreAuthType,IpAddress,IpPort,CertIssuerName,CertSerialNumber,CertThumbprint"
+4772,A Kerberos authentication ticket request failed,"-A Kerberos authentication ticket request failed.
+
+Account Information:
+    Account Name:        %1
+    Supplied Realm Name: %2
+
+Service Information:
+    Service Name:   %3
+
+Network Information:
+    Client Address: %6
+    Client Port:    %7
+
+Additional Information:
+    Ticket Options: %4
+    Failure Code:   %5
+
+Ticket options and failure codes are defined in RFC 4120."
+4773,A Kerberos service ticket request failed,"-A Kerberos service ticket request failed.
+
+Account Information:
+    Account Name:       %1
+    Account Domain:     %2
+
+Service Information:
+    Service Name:   %3
+
+Network Information:
+    Client Address: %6
+    Client Port:    %7
+
+Additional Information:
+    Ticket Options: %4
+    Failure Code:   %5
+
+Ticket options and failure codes are defined in RFC 4120."
+4774,An account was mapped for logon,"MappingBy,ClientUserName,MappedName"
+4775,An account could not be mapped for logon,"-An account could not be mapped for logon.
+
+Authentication Package: %1
+Account Name:           %2"
+4776,The computer attempted to validate the credentials for an account,"PackageName,TargetUserName,Workstation,Status"
+4777,The domain controller failed to validate the credentials for an account,"-The domain controller failed to validate the credentials for an account.
+
+Authentication Package: %1
+Logon Account:          %2
+Source Workstation:     %3
+Error Code:             %4"
+4778,A session was reconnected to a Window Station,"AccountName,AccountDomain,LogonID,SessionName,ClientName,ClientAddress"
+4779,A session was disconnected from a Window Station,"AccountName,AccountDomain,LogonID,SessionName,ClientName,ClientAddress"
+4780,The ACL was set on accounts which are members of administrators groups,"-The ACL was set on accounts which are members of administrators groups.
+
+
+Subject:
+    Security ID:    %4
+    Account Name:   %5
+    Account Domain: %6
+    Logon ID:       %7
+
+Target Account:
+    Security ID:        %3
+    Account Name:       %1
+    Account Domain:     %2
+
+Additional Information:
+    Privileges:     %8
+
+Every hour, the Windows domain controller that holds the primary domain controller (PDC) Flexible Single Master Operation (FSMO) role compares the ACL on all security principal accounts (users, groups, and machine accounts) present for its domain in Active Directory and that are in administrative groups against the ACL on the AdminSDHolder object.  If the ACL on the principal account differs from the ACL on the AdminSDHolder object, then the ACL on the principal account is reset to match the ACL on the AdminSDHolder object and this event is generated."
+4781,The name of an account was changed,"OldTargetUserName,NewTargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,PrivilegeList"
+4782,The password hash an account was accessed,"TargetUserName,TargetDomainName,SubjectUserSid,SubjectUserName,SubjectDomainName"
+4783,A basic application group was created,"-A basic application group was created.
+
+Subject:
+    Security ID:        %4
+    Account Name:       %5
+    Account Domain:     %6
+    Logon ID:       %7
+
+Group:
+    Security ID:        %3
+    Account Name:       %1
+    Account Domain:     %2
+
+Attributes:
+    SAM Account Name:   %9
+    SID History:        %10
+
+Additional Information:
+    Privileges:     %8"
+4784,A basic application group was changed,"-A basic application group was changed.
+
+Subject:
+    Security ID:        %4
+    Account Name:       %5
+    Account Domain:     %6
+    Logon ID:       %7
+
+Group:
+    Security ID:        %3
+    Account Name:       %1
+    Account Domain:     %2
+
+Attributes:
+    SAM Account Name:   %9
+    SID History:        %10
+
+Additional Information:
+    Privileges:     %8"
+4785,A member was added to a basic application group,"-A member was added to a basic application group.
+
+Subject:
+    Security ID:        %6
+    Account Name:       %7
+    Account Domain:     %8
+    Logon ID:       %9
+
+Member:
+    Security ID:        %2
+    Account Name:       %1
+
+Group:
+    Security ID:        %5
+    Group Name:     %3
+    Group Domain:       %4
+
+Additional Information:
+    Privileges:     %10"
+4786,A member was removed from a basic application group,"-A member was removed from a basic application group.
+
+Subject:
+    Security ID:        %6
+    Account Name:       %7
+    Account Domain:     %8
+    Logon ID:       %9
+
+Member:
+    Security ID:        %2
+    Account Name:       %1
+
+Group:
+    Security ID:        %5
+    Group Name:     %3
+    Group Domain:       %4
+
+Additional Information:
+    Privileges:     %10"
+4787,A non,"-A non-member was added to a basic application group.
+
+Subject:
+    Security ID:        %6
+    Account Name:       %7
+    Account Domain:     %8
+    Logon ID:       %9
+
+Member:
+    Security ID:        %2
+    Account Name:       %1
+
+Group:
+    Security ID:        %5
+    Account Name:       %3
+    Account Domain:     %4
+
+Additional Information:
+    Privileges:     %10
+
+A non-member is an account that is explicitly excluded from membership in a basic application group.  Even if the account is specified as a member of the application group, either explicitly or through nested group membership, the account will not be treated as a group member if it is listed as a non-member."
+4788,A non,"-A non-member was removed from a basic application group.
+
+Subject:
+    Security ID:        %6
+    Account Name:       %7
+    Account Domain:     %8
+    Logon ID:       %9
+
+Member:
+    Security ID:        %2
+    Account Name:       %1
+
+Group:
+    Security ID:        %5
+    Account Name:       %3
+    Account Domain:     %4
+
+Additional Information:
+    Privileges:     %10
+
+A non-member is an account that is explicitly excluded from membership in a basic application group.  Even if the account is specified as a member of the application group, either explicitly or through nested group membership, the account will not be treated as a group member if it is listed as a non-member."
+4789,A basic application group was deleted,"-A basic application group was deleted.
+
+Subject:
+    Security ID:        %4
+    Account Name:       %5
+    Account Domain:     %6
+    Logon ID:       %7
+
+Group:
+    Security ID:        %3
+    Account Name:       %1
+    Account Domain:     %2
+
+Additional Information:
+    Privileges:     %8"
+4790,An LDAP query group was created,"-An LDAP query group was created.
+
+Subject:
+    Security ID:        %4
+    Account Name:       %5
+    Account Domain:     %6
+    Logon ID:       %7
+
+Group:
+    Security ID:        %3
+    Account Name:       %1
+    Account Domain:     %2
+
+Attributes:
+    SAM Account Name:   %9
+    SID History:        %10
+
+Additional Information:
+    Privileges:     %8"
+4791,A basic application group was changed,"-A basic application group was changed.
+
+Subject:
+    Security ID:        %4
+    Account Name:       %5
+    Account Domain:     %6
+    Logon ID:       %7
+
+Group:
+    Security ID:        %3
+    Account Name:       %1
+    Account Domain:     %2
+
+Attributes:
+    SAM Account Name:   %9
+    SID History:        %10
+
+Additional Information:
+    Privileges:     %8"
+4792,An LDAP query group was deleted,"-An LDAP query group was deleted.
+
+Subject:
+    Security ID:        %4
+    Account Name:       %5
+    Account Domain:     %6
+    Logon ID:       %7
+
+Group:
+    Security ID:        %3
+    Account Name:       %1
+    Account Domain:     %2
+
+Additional Information:
+    Privileges:     %8"
+4793,The Password Policy Checking API was called,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,Workstation,TargetUserName,Status"
+4794,An attempt was made to set the Directory Services Restore Mode administrator password,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,Workstation,Status"
+4797,An attempt was made to query the existence of a blank password for an account,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,Workstation,TargetUserName,TargetDomainName"
+4798,A user's local group membership was enumerated,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,CallerProcessId,CallerProcessName"
+4799,A security,"TargetUserName,TargetDomainName,TargetSid,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,CallerProcessId,CallerProcessName"
+4800,The workstation was locked,"TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId,SessionId"
+4801,The workstation was unlocked,"TargetUserSid,TargetUserName,TargetDomainName,TargetLogonId,SessionId"
+4802,The screen saver was invoked,"-The screen saver was invoked.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+    Session ID: %5"
+4803,The screen saver was dismissed,"-The screen saver was dismissed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+    Session ID: %5"
+4816,RPC detected an integrity violation while decrypting an incoming message.,"-RPC detected an integrity violation while decrypting an incoming message.
+
+Peer Name:  %1
+Protocol Sequence:  %2
+Security Error: %3"
+4817,Auditing settings on object were changed,"-Auditing settings on object were changed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    Object Server:  %5
+    Object Type:    %6
+    Object Name:    %7
+
+Auditing Settings:
+    Original Security Descriptor:   %8
+    New Security Descriptor:        %9"
+4818,Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy,"-Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    Object Server:      %5
+    Object Type:        %6
+    Object Name:        %7
+    Handle ID:      %8
+
+Process Information:
+    Process ID:     %9
+    Process Name:       %10
+
+Current Central Access Policy results:
+
+    Access Reasons:     %11
+Proposed Central Access Policy results that differ from the current Central Access Policy results:
+
+    Access Reasons:     %12"
+4819,Central Access Policies on the machine have been changed,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectServer,ObjectType,AddedCAPs,DeletedCAPs,ModifiedCAPs,AsIsCAPs"
+4820,A Kerberos Ticket,"TicketEncryptionType,PreAuthType"
+4821,"A Kerberos service ticket was denied because the user, device, or both does not meet the access control restrictions","-A Kerberos service ticket was denied because the user, device, or both does not meet the access control restrictions.
+
+Account Information:
+    Account Name:       %1
+    Account Domain:     %2
+    Logon GUID:     %11
+
+Authentication Policy Information:
+    Silo Name:      %13
+    Policy Name:        %14
+
+Device Information:
+    Device Name:        %3
+
+Service Information:
+    Service Name:       %4
+    Service ID:     %5
+
+Network Information:
+    Client Address:     %8
+    Client Port:        %9
+
+Additional Information:
+    Ticket Options:     %6
+    Ticket Encryption Type: %7
+    Failure Code:       %10
+    Transited Services: %12
+
+This event is generated every time access is requested to a resource such as a computer or a Windows service.  The service name indicates the resource to which access was requested."
+4822,NTLM authentication failed because the account was a member of the Protected User group,"-NTLM authentication failed because the account was a member of the Protected User group.
+
+Account Name:   %1
+Device Name:    %2
+Error Code: %3"
+4823,NTLM authentication failed because access control restrictions are required,"-NTLM authentication failed because access control restrictions are required.
+
+Account Name:   %1
+Device Name:    %2
+Error Code: %3
+
+Authentication Policy Information:
+    Silo Name:  %4
+    PolicyName: %5"
+4824,Kerberos preauthentication by using DES or RC4 failed because the account was a member of the Protected User group,"-Kerberos preauthentication by using DES or RC4 failed because the account was a member of the Protected User group.
+
+Account Information:
+    Security ID:        %2
+    Account Name:       %1
+
+Service Information:
+    Service Name:       %3
+
+Network Information:
+    Client Address:     %7
+    Client Port:        %8
+
+Additional Information:
+    Ticket Options:     %4
+    Failure Code:       %5
+    Pre-Authentication Type:    %6
+
+Certificate Information:
+    Certificate Issuer Name:        %9
+    Certificate Serial Number:  %10
+    Certificate Thumbprint:     %11
+
+Certificate information is only provided if a certificate was used for pre-authentication.
+
+Pre-authentication types, ticket options and failure codes are defined in RFC 4120.
+
+If the ticket was malformed or damaged during transit and could not be decrypted, then many fields in this event might not be present."
+4825,"A user was denied the access to Remote Desktop. By default, users are allowed to connect only if they are members of the Remote Desktop Users group or Administrators group","-A user was denied the access to Remote Desktop. By default, users are allowed to connect only if they are members of the Remote Desktop Users group or Administrators group.
+
+Subject:
+    User Name:  %1
+    Domain:     %2
+    Logon ID:   %3
+
+Additional Information:
+    Client Address: %4
+
+
+This event is generated when an authenticated user who is not allowed to log on remotely attempts to connect to this computer through Remote Desktop."
+4826,Boot Configuration Data loaded,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,LoadOptions,AdvancedOptions,ConfigAccessPolicy,RemoteEventLogging,KernelDebug,VsmLaunchType,TestSigning,FlightSigning,DisableIntegrityChecks,HypervisorLoadOptions,HypervisorLaunchType,HypervisorDebug"
+4830,SID History was removed from an account,"-SID History was removed from an account.
+
+Subject:
+    Security ID:        %6
+    Account Name:       %7
+    Account Domain:     %8
+    Logon ID:       %9
+
+Target Account:
+    Security ID:        %5
+    Account Name:       %3
+    Account Domain:     %4
+
+Additional Information:
+    Privileges:     %10
+    SID List:           %11"
+4864,A namespace collision was detected,"-A namespace collision was detected.
+
+Target Type:    %1
+Target Name:    %2
+Forest Root:    %3
+Top Level Name: %4
+DNS Name:   %5
+NetBIOS Name:   %6
+Security ID:        %7
+New Flags:  %8"
+4865,A trusted forest information entry was added,"-A trusted forest information entry was added.
+
+Subject:
+    Security ID:        %10
+    Account Name:       %11
+    Account Domain:     %12
+    Logon ID:       %13
+
+Trust Information:
+    Forest Root:    %1
+    Forest Root SID:    %2
+    Operation ID:   %3
+    Entry Type: %4
+    Flags:  %5
+    Top Level Name: %6
+    DNS Name:   %7
+    NetBIOS Name:   %8
+    Domain SID: %9"
+4866,A trusted forest information entry was removed,"-A trusted forest information entry was removed.
+
+Subject:
+    Security ID:        %10
+    Account Name:       %11
+    Account Domain:     %12
+    Logon ID:       %13
+
+Trust Information:
+    Forest Root:    %1
+    Forest Root SID:    %2
+    Operation ID:   %3
+    Entry Type: %4
+    Flags:  %5
+    Top Level Name: %6
+    DNS Name:   %7
+    NetBIOS Name:   %8
+    Domain SID: %9"
+4867,A trusted forest information entry was modified,"-A trusted forest information entry was modified.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Trust Information:
+    Forest Root:    %5
+    Forest Root SID:    %6
+    Operation ID:   %7
+    Entry Type: %8
+    Flags:  %9
+    Top Level Name: %10
+    DNS Name:   %11
+    NetBIOS Name:   %12
+    Domain SID: %13"
+4868,The certificate manager denied a pending certificate request,"-The certificate manager denied a pending certificate request.
+
+Request ID: %1"
+4869,Certificate Services received a resubmitted certificate request,"-Certificate Services received a resubmitted certificate request.
+
+Request ID: %1"
+4870,Certificate Services revoked a certificate,"-Certificate Services revoked a certificate.
+
+Serial Number:  %1
+Reason: %2"
+4871,Certificate Services received a request to publish the certificate revocation list (CRL),"-Certificate Services received a request to publish the certificate revocation list (CRL).
+
+Next Update:    %1
+Publish Base:   %2
+Publish Delta:  %3"
+4872,Certificate Services published the certificate revocation list (CRL),"-Certificate Services published the certificate revocation list (CRL).
+
+Base CRL:   %1
+CRL Number: %2
+Key Container:  %3
+Next Publish:   %4
+Publish URLs:   %5"
+4873,A certificate request extension changed,"-A certificate request extension changed.
+
+Request ID: %1
+Name:   %2
+Type:   %3
+Flags:  %4
+Data:   %5"
+4874,One or more certificate request attributes changed,"-One or more certificate request attributes changed.
+
+Request ID: %1
+Attributes: %2"
+4875,Certificate Services received a request to shut down,-Certificate Services received a request to shut down.
+4876,Certificate Services backup started,"-Certificate Services backup started.
+
+Backup Type:    %1"
+4877,Certificate Services backup completed,-Certificate Services backup completed.
+4878,Certificate Services restore started,-Certificate Services restore started.
+4879,Certificate Services restore completed,-Certificate Services restore completed.
+4880,Certificate Services started,"-Certificate Services started.
+
+Certificate Database Hash:  %1
+Private Key Usage Count:    %2
+CA Certificate Hash:    %3
+CA Public Key Hash: %4"
+4881,Certificate Services stopped,"-Certificate Services stopped.
+
+Certificate Database Hash:  %1
+Private Key Usage Count:    %2
+CA Certificate Hash:    %3
+CA Public Key Hash: %4"
+4882,The security permissions for Certificate Services changed,"-The security permissions for Certificate Services changed.
+
+%1"
+4883,Certificate Services retrieved an archived key,"-Certificate Services retrieved an archived key.
+
+Request ID: %1"
+4884,Certificate Services imported a certificate into its database,"-Certificate Services imported a certificate into its database.
+
+Certificate:    %1
+Request ID: %2"
+4885,The audit filter for Certificate Services changed,"-The audit filter for Certificate Services changed.
+
+Filter: %1"
+4886,Certificate Services received a certificate request,"-Certificate Services received a certificate request.
+
+Request ID: %1
+Requester:  %2
+Attributes: %3"
+4887,Certificate Services approved a certificate request and issued a certificate,"-Certificate Services approved a certificate request and issued a certificate.
+
+Request ID: %1
+Requester:  %2
+Attributes: %3
+Disposition:    %4
+SKI:        %5
+Subject:    %6"
+4888,Certificate Services denied a certificate request,"-Certificate Services denied a certificate request.
+
+Request ID: %1
+Requester:  %2
+Attributes: %3
+Disposition:    %4
+SKI:        %5
+Subject:    %6"
+4889,Certificate Services set the status of a certificate request to pending,"-Certificate Services set the status of a certificate request to pending.
+
+Request ID: %1
+Requester:  %2
+Attributes: %3
+Disposition:    %4
+SKI:        %5
+Subject:    %6"
+4890,The certificate manager settings for Certificate Services changed,"-The certificate manager settings for Certificate Services changed.
+
+Enable: %1
+
+%2"
+4891,A configuration entry changed in Certificate Services,"-A configuration entry changed in Certificate Services.
+
+Node:   %1
+Entry:  %2
+Value:  %3"
+4892,A property of Certificate Services changed,"-A property of Certificate Services changed.
+
+Property:   %1
+Index:  %2
+Type:   %3
+Value:  %4"
+4893,Certificate Services archived a key,"-Certificate Services archived a key.
+
+Request ID: %1
+Requester:  %2
+KRA Hashes: %3"
+4894,Certificate Services imported and archived a key,"-Certificate Services imported and archived a key.
+
+Request ID: %1"
+4895,Certificate Services published the CA certificate to Active Directory Domain Services,"-Certificate Services published the CA certificate to Active Directory Domain Services.
+
+Certificate Hash:   %1
+Valid From: %2
+Valid To:       %3"
+4896,One or more rows have been deleted from the certificate database,"-One or more rows have been deleted from the certificate database.
+
+Table ID:   %1
+Filter: %2
+Rows Deleted:   %3"
+4897,Role separation enabled,-Role separation enabled:    %1
+4898,Certificate Services loaded a template,"-Certificate Services loaded a template.
+
+%1 v%2 (Schema V%3)
+%4
+%5
+
+Template Information:
+    Template Content:       %7
+    Security Descriptor:        %8
+
+Additional Information:
+    Domain Controller:  %6"
+4899,A Certificate Services template was updated,"-A Certificate Services template was updated.
+
+%1 v%2 (Schema V%3)
+%4
+%5
+
+Template Change Information:
+    Old Template Content:   %8
+    New Template Content:       %7
+
+Additional Information:
+    Domain Controller:  %6"
+4900,Certificate Services template security was updated,"-Certificate Services template security was updated.
+
+%1 v%2 (Schema V%3)
+%4
+%5
+
+Template Change Information:
+    Old Template Content:       %9
+    New Template Content:   %7
+    Old Security Descriptor:        %10
+    New Security Descriptor:        %8
+
+Additional Information:
+    Domain Controller:  %6"
+4902,The Per,"PuaCount,PuaPolicyId"
+4904,An attempt was made to register a security event source,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,AuditSourceName,EventSourceId,ProcessId,ProcessName"
+4905,An attempt was made to unregister a security event source,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,AuditSourceName,EventSourceId,ProcessId,ProcessName"
+4906,The CrashOnAuditFail value has changed,"-The CrashOnAuditFail value has changed.
+
+New Value of CrashOnAuditFail:  %1"
+4907,Auditing settings on object were changed,"-Auditing settings on object were changed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    Object Server:  %5
+    Object Type:    %6
+    Object Name:    %7
+    Handle ID:  %8
+
+Process Information:
+    Process ID: %11
+    Process Name:   %12
+
+Auditing Settings:
+    Original Security Descriptor:   %9
+    New Security Descriptor:        %10"
+4908,Special Groups Logon table modified,"-Special Groups Logon table modified.
+
+Special Groups: %1
+
+This event is generated when the list of special groups is updated in the registry or through security policy. The updated list of special groups is indicated in the event."
+4909,The local policy settings for the TBS were changed,"-The local policy settings for the TBS were changed.
+
+Old Blocked Ordinals:   %1
+New Blocked Ordinals:   %2"
+4910,The group policy settings for the TBS were changed,"-The group policy settings for the TBS were changed.
+
+Group Policy Setting:       Ignore Default Settings
+    Old Value:      %1
+    New Value:      %2
+
+Group Policy Setting:       Ignore Local Settings
+    Old Value:      %3
+    New Value:      %4
+
+Old Blocked Ordinals:   %5
+New Blocked Ordinals:   %6"
+4911,Resource attributes of the object were changed,"-Resource attributes of the object were changed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    Object Server:  %5
+    Object Type:    %6
+    Object Name:    %7
+    Handle ID:  %8
+
+Process Information:
+    Process ID: %11
+    Process Name:   %12
+
+Resource Attributes:
+    Original Security Descriptor:   %9
+    New Security Descriptor:        %10"
+4912,Per User Audit Policy was changed,"-Per User Audit Policy was changed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Policy For Account:
+    Security ID:        %5
+
+Policy Change Details:
+    Category:           %6
+    Subcategory:        %7
+    Subcategory GUID:   %8
+    Changes:            %9"
+4913,Central Access Policy on the object was changed,"-Central Access Policy on the object was changed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    Object Server:  %5
+    Object Type:    %6
+    Object Name:    %7
+    Handle ID:  %8
+
+Process Information:
+    Process ID: %11
+    Process Name:   %12
+
+Central Policy ID:
+    Original Security Descriptor:   %9
+    New Security Descriptor:        %10"
+4928,An Active Directory replica source naming context was established,"-An Active Directory replica source naming context was established.
+
+Destination DRA:    %1
+Source DRA: %2
+Source Address: %3
+Naming Context: %4
+Options:        %5
+Status Code:    %6"
+4929,An Active Directory replica source naming context was removed,"-An Active Directory replica source naming context was removed.
+
+Destination DRA:    %1
+Source DRA: %2
+Source Address: %3
+Naming Context: %4
+Options:        %5
+Status Code:    %6"
+4930,An Active Directory replica source naming context was modified,"-An Active Directory replica source naming context was modified.
+
+Destination DRA:    %1
+Source DRA: %2
+Source Address: %3
+Naming Context: %4
+Options:        %5
+Status Code:    %6"
+4931,An Active Directory replica destination naming context was modified,"-An Active Directory replica destination naming context was modified.
+
+Destination DRA:    %1
+Source DRA: %2
+Destination Address:    %3
+Naming Context: %4
+Options:        %5
+Status Code:    %6"
+4932,Synchronization of a replica of an Active Directory naming context has begun,"-Synchronization of a replica of an Active Directory naming context has begun.
+
+Destination DRA: %1
+Source DRA:      %2
+Naming Context:  %3
+Options:         %4
+Session ID:      %5
+Start USN:       %6"
+4933,Synchronization of a replica of an Active Directory naming context has ended,"-Synchronization of a replica of an Active Directory naming context has ended.
+
+Destination DRA: %1
+Source DRA:      %2
+Naming Context:  %3
+Options:         %4
+Session ID:      %5
+End USN:         %6
+Status Code:     %7"
+4934,Attributes of an Active Directory object were replicated,"-Attributes of an Active Directory object were replicated.
+
+Session ID: %1
+Object:     %2
+Attribute:  %3
+Type of change: %4
+New Value:  %5
+USN:        %6
+Status Code:    %7"
+4935,Replication failure begins,"-Replication failure begins.
+
+Replication Event:  %1
+Audit Status Code:  %2"
+4936,Replication failure ends,"-Replication failure ends.
+
+Replication Event:  %1
+Audit Status Code:  %2
+Replication Status Code:    %3"
+4937,A lingering object was removed from a replica,"-A lingering object was removed from a replica.
+
+Destination DRA:    %1
+Source DRA: %2
+Object: %3
+Options:    %4
+Status Code:    %5"
+4944,The following policy was active when the Windows Firewall started,"GroupPolicyApplied,Profile,OperationMode,RemoteAdminEnabled,MulticastFlowsEnabled,LogDroppedPacketsEnabled,LogSuccessfulConnectionsEnabled"
+4945,A rule was listed when the Windows Firewall started,"ProfileUsed,RuleId,RuleName"
+4946,A change was made to the Windows Firewall exception list. A rule was added,"ProfileChanged,RuleId,RuleName"
+4947,A change was made to the Windows Firewall exception list. A rule was modified,"ProfileChanged,RuleId,RuleName"
+4948,A change was made to the Windows Firewall exception list. A rule was deleted,"ProfileChanged,RuleId,RuleName"
+4949,Windows Firewall settings were restored to the default values.,-Windows Firewall settings were restored to the default values.
+4950,A Windows Firewall setting was changed,"ProfileChanged,Type,Value"
+4951,Windows Firewall ignored a rule because its major version number is not recognized,"-Windows Firewall ignored a rule because its major version number is not recognized.
+
+Profile:    %1
+
+Ignored Rule:
+    ID: %2
+    Name:   %3"
+4952,Windows Firewall ignored parts of a rule because its minor version number is not recognized,"-Windows Firewall ignored parts of a rule because its minor version number is not recognized. Other parts of the rule will be enforced.
+
+Profile:    %1
+
+Partially Ignored Rule:
+    ID: %2
+    Name:   %3"
+4953,Windows Firewall ignored a rule because it could not be parsed,"Profile,ReasonForRejection,RuleId,RuleName"
+4954,"Group Policy settings for Windows Firewall were changed, and the new settings were applied. ","-Group Policy settings for Windows Firewall were changed, and the new settings were applied."
+4956,Windows Firewall changed the active profile,ActiveProfile
+4957,Windows Firewall did not apply the following rule,"RuleId,RuleName,RuleAttr"
+4958,Windows Firewall did not apply the following rule because the rule referred to items not configured on this computer,"-Windows Firewall did not apply the following rule because the rule referred to items not configured on this computer:
+
+Rule Information:
+    ID: %1
+    Name:   %2
+
+Error Information:
+    Error:  %3
+    Reason: %4"
+4960,IPsec dropped an inbound packet that failed an integrity check,"-IPsec dropped an inbound packet that failed an integrity check. If this problem persists, it could indicate a network issue or that packets are being modified in transit to this computer. Verify that the packets sent from the remote computer are the same as those received by this computer. This error might also indicate interoperability problems with other IPsec implementations.
+
+Remote Network Address: %1
+Inbound SA SPI:     %2"
+4961,IPsec dropped an inbound packet that failed a replay check,"-IPsec dropped an inbound packet that failed a replay check. If this problem persists, it could indicate a replay attack against this computer.
+
+Remote Network Address: %1
+Inbound SA SPI:     %2"
+4962,IPsec dropped an inbound packet that failed a replay check,"-IPsec dropped an inbound packet that failed a replay check. The inbound packet had too low a sequence number to ensure it was not a replay.
+
+Remote Network Address: %1
+Inbound SA SPI:     %2"
+4963,IPsec dropped an inbound clear text packet that should have been secured,"-IPsec dropped an inbound clear text packet that should have been secured. If the remote computer is configured with a Request Outbound IPsec policy, this might be benign and expected.  This can also be caused by the remote computer changing its IPsec policy without informing this computer. This could also be a spoofing attack attempt.
+
+Remote Network Address: %1
+Inbound SA SPI:     %2"
+4964,Special groups have been assigned to a new logon,"-Special groups have been assigned to a new logon.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+    Logon GUID: %5
+
+New Logon:
+    Security ID:        %6
+    Account Name:       %7
+    Account Domain:     %8
+    Logon ID:       %9
+    Logon GUID: %10
+    Special Groups Assigned:    %11"
+4965,IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI),"-IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI). This is usually caused by malfunctioning hardware that is corrupting packets. If these errors persist, verify that the packets sent from the remote computer are the same as those received by this computer. This error might also indicate interoperability problems with other IPsec implementations. In that case, if connectivity is not impeded, then these events can be ignored.
+
+Remote Network Address: %1
+Inbound SA SPI:     %2"
+4976,"During main mode negotiation, IPsec received an invalid negotiation packet","-During main mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.
+
+Local Network Address:  %1
+Remote Network Address: %2
+Keying Module Name: %3"
+4977,"During quick mode negotiation, IPsec received an invalid negotiation packet","-During quick mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.
+
+Local Network Address:  %1
+Remote Network Address: %2
+Keying Module Name: %3"
+4978,"During extended mode negotiation, IPsec received an invalid negotiation packet","-During extended mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.
+
+Local Network Address:  %1
+Remote Network Address: %2
+Keying Module Name: %3"
+4979,IPsec main mode and extended mode security associations were established,"-IPsec main mode and extended mode security associations were established.
+
+Main Mode Local Endpoint:
+    Principal Name:     %1
+    Network Address:    %3
+    Keying Module Port: %4
+
+Main Mode Remote Endpoint:
+    Principal Name: %2
+    Network Address:    %5
+    Keying Module Port: %6
+
+Main Mode Cryptographic Information:
+    Cipher Algorithm:   %8
+    Integrity Algorithm:    %9
+    Diffie-Hellman Group:   %10
+
+Main Mode Security Association:
+    Lifetime (minutes): %11
+    Quick Mode Limit:   %12
+    Main Mode SA ID:    %16
+
+Main Mode Additional Information:
+    Keying Module Name: AuthIP
+    Authentication Method:  %7
+    Role:           %13
+    Impersonation State:    %14
+    Main Mode Filter ID:    %15
+
+Extended Mode Information:
+    Local Principal Name:   %17
+    Remote Principal Name:  %18
+    Authentication Method:  %19
+    Impersonation State:    %20
+    Quick Mode Filter ID:   %21"
+4980,IPsec main mode and extended mode security associations were established,"-IPsec main mode and extended mode security associations were established.
+
+Main Mode Local Endpoint:
+    Principal Name:     %1
+    Network Address:    %3
+    Keying Module Port: %4
+
+Main Mode Remote Endpoint:
+    Principal Name: %2
+    Network Address:    %5
+    Keying Module Port: %6
+
+Main Mode Cryptographic Information:
+    Cipher Algorithm:   %8
+    Integrity Algorithm:    %9
+    Diffie-Hellman Group:   %10
+
+Main Mode Security Association:
+    Lifetime (minutes): %11
+    Quick Mode Limit:   %12
+    Main Mode SA ID:    %16
+
+Main Mode Additional Information:
+    Keying Module Name: AuthIP
+    Authentication Method:  %7
+    Role:           %13
+    Impersonation State:    %14
+    Main Mode Filter ID:    %15
+
+Extended Mode Local Endpoint:
+    Principal Name: %17
+    Certificate SHA Thumbprint: %18
+    Certificate Issuing CA: %19
+    Certificate Root CA:    %20
+
+Extended Mode Remote Endpoint:
+    Principal Name: %21
+    Certificate SHA Thumbprint: %22
+    Certificate Issuing CA: %23
+    Certificate Root CA:    %24
+
+Extended Mode Additional Information:
+    Authentication Method:  SSL
+    Impersonation State:    %25
+    Quick Mode Filter ID:   %26"
+4981,IPsec main mode and extended mode security associations were established,"-IPsec main mode and extended mode security associations were established.
+
+Local Endpoint:
+    Principal Name:     %1
+    Network Address:    %9
+    Keying Module Port: %10
+
+Local Certificate:
+    SHA Thumbprint: %2
+    Issuing CA:     %3
+    Root CA:        %4
+
+Remote Endpoint:
+    Principal Name:     %5
+    Network Address:    %11
+    Keying Module Port: %12
+
+Remote Certificate:
+    SHA Thumbprint: %6
+    Issuing CA:     %7
+    Root CA:        %8
+
+Cryptographic Information:
+    Cipher Algorithm:   %13
+    Integrity Algorithm:    %14
+    Diffie-Hellman Group:   %15
+
+Security Association Information:
+    Lifetime (minutes): %16
+    Quick Mode Limit:   %17
+    Main Mode SA ID:    %21
+
+Additional Information:
+    Keying Module Name: AuthIP
+    Authentication Method:  SSL
+    Role:           %18
+    Impersonation State:    %19
+    Main Mode Filter ID:    %20
+
+Extended Mode Information:
+    Local Principal Name:   %22
+    Remote Principal Name:  %23
+    Authentication Method:  %24
+    Impersonation State:    %25
+    Quick Mode Filter ID:   %26"
+4982,IPsec main mode and extended mode security associations were established,"-IPsec main mode and extended mode security associations were established.
+
+Local Endpoint:
+    Principal Name:     %1
+    Network Address:    
+    Keying Module Port: %9
+
+Local Certificate:
+    SHA Thumbprint: %2
+    Issuing CA:     %3
+    Root CA:        %4
+
+Remote Endpoint:
+    Principal Name:     %5
+    Network Address:    %10
+    Keying Module Port: %11
+
+Remote Certificate:
+    SHA Thumbprint: %6
+    Issuing CA:     %7
+    Root CA:        %8
+
+Cryptographic Information:
+    Cipher Algorithm:   %12
+    Integrity Algorithm:    %13
+    Diffie-Hellman Group:   %14
+
+Security Association Information:
+    Lifetime (minutes): %15
+    Quick Mode Limit:   %16
+    Main Mode SA ID:    %20
+
+Additional Information:
+    Keying Module Name: AuthIP
+    Authentication Method:  SSL
+    Role:           %17
+    Impersonation State:    %18
+    Main Mode Filter ID:    %19
+
+Extended Mode Local Endpoint:
+    Principal Name:     %21
+    Certificate SHA Thumbprint: %22
+    Certificate Issuing CA: %23
+    Certificate Root CA:    %24
+
+Extended Mode Remote Endpoint:
+    Principal Name:     %25
+    Certificate SHA Thumbprint: %26
+    Certificate Issuing CA: %27
+    Certificate Root CA:    %28
+Extended Mode Additional Information:
+    Authentication Method:  SSL
+    Impersonation State:    %29
+    Quick Mode Filter ID:   %30"
+4983,An IPsec extended mode negotiation failed,"-An IPsec extended mode negotiation failed. The corresponding main mode security association has been deleted.
+
+
+Local Endpoint:
+    Principal Name:     %1
+    Network Address:    %9
+    Keying Module Port: %10
+
+Local Certificate:
+    SHA Thumbprint: %2
+    Issuing CA:     %3
+    Root CA:        %4
+
+Remote Endpoint:
+    Principal Name:     %5
+    Network Address:    %11
+    Keying Module Port: %12
+
+Remote Certificate:
+    SHA Thumbprint: %6
+    Issuing CA:     %7
+    Root CA:        %8
+
+Additional Information:
+    Keying Module Name: AuthIP
+    Authentication Method:  SSL
+    Role:           %16
+    Impersonation State:    %17
+    Quick Mode Filter ID:   %18
+
+Failure Information:
+    Failure Point:      %13
+    Failure Reason:     %14
+    State:          %15"
+4984,An IPsec extended mode negotiation failed,"-An IPsec extended mode negotiation failed. The corresponding main mode security association has been deleted.
+
+Local Endpoint:
+    Principal Name:     %1
+    Network Address:    %3
+    Keying Module Port: %4
+
+Remote Endpoint:
+    Principal Name:     %2
+    Network Address:    %5
+    Keying Module Port: %6
+
+Additional Information:
+    Keying Module Name: AuthIP
+    Authentication Method:  %9
+    Role:           %11
+    Impersonation State:    %12
+    Quick Mode Filter ID:   %13
+
+Failure Information:
+    Failure Point:      %7
+    Failure Reason:     %8
+    State:          %10"
+4985,The state of a transaction has changed,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,TransactionId,NewState,ResourceManager,ProcessId,ProcessName"
+5024,The Windows Firewall service started successfully. ,-The Windows Firewall service started successfully.
+5025,The Windows Firewall service was stopped. ,-The Windows Firewall service was stopped.
+5027,The Windows Firewall service was unable to retrieve the security policy from the local storage.,"-The Windows Firewall service was unable to retrieve the security policy from the local storage. Windows Firewall will continue to enforce the current policy.
+
+Error Code: %1"
+5028,Windows Firewall was unable to parse the new security policy.,"-Windows Firewall was unable to parse the new security policy. Windows Firewall will continue to enforce the current policy.
+
+Error Code: %1"
+5029,The Windows Firewall service failed to initialize the driver.,"-The Windows Firewall service failed to initialize the driver. Windows Firewall will continue to enforce the current policy.
+
+Error Code: %1"
+5030,The Windows Firewall service failed to start.,"-The Windows Firewall service failed to start.
+
+Error Code: %1"
+5031,Windows Firewall blocked an application from accepting incoming connections on the network.,"-Windows Firewall blocked an application from accepting incoming connections on the network.
+
+Profiles:       %1
+Application:        %2"
+5032,Windows Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network.,"-Windows Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network.
+
+Error Code: %1"
+5033,The Windows Firewall Driver started successfully. ,-The Windows Firewall Driver started successfully.
+5034,The Windows Firewall Driver was stopped. ,-The Windows Firewall Driver was stopped.
+5035,The Windows Firewall Driver failed to start.,"-The Windows Firewall Driver failed to start.
+
+Error Code: %1"
+5037,The Windows Firewall Driver detected a critical runtime error.,"-The Windows Firewall Driver detected a critical runtime error, terminating.
+
+Error Code: %1"
+5038,Code integrity determined that the image hash of a file is not valid.,"-Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:  %1"
+5039,A registry key was virtualized.,"-A registry key was virtualized.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    Key Name:       %5
+    Virtual Key Name:       %6
+
+Process Information:
+    Process ID:     %7
+    Process Name:       %8"
+5040,A change was made to IPsec settings. An authentication set was added.,"-A change was made to IPsec settings. An authentication set was added.
+
+Profile Changed:        %1
+
+Added Authentication Set:
+    ID:         %2
+    Name:           %3"
+5041,A change was made to IPsec settings. An authentication set was modified.,"-A change was made to IPsec settings. An authentication set was modified.
+
+Profile Changed:        %1
+
+Modified Authentication Set:
+    ID:         %2
+    Name:           %3"
+5042,A change was made to IPsec settings. An authentication set was deleted.,"-A change was made to IPsec settings. An authentication set was deleted.
+
+Profile Changed:        %1
+
+Deleted Authentication Set:
+    ID:         %2
+    Name:           %3"
+5043,A change was made to IPsec settings. A connection security rule was added.,"-A change was made to IPsec settings. A connection security rule was added.
+
+Profile Changed:        %1
+
+Added Connection Security Rule:
+    ID:         %2
+    Name:           %3"
+5044,A change was made to IPsec settings. A connection security rule was modified.,"-A change was made to IPsec settings. A connection security rule was modified.
+
+Profile Changed:    %1
+
+Modified Connection Security Rule:
+    ID:         %2
+    Name:           %3"
+5045,A change was made to IPsec settings. A connection security rule was deleted.,"-A change was made to IPsec settings. A connection security rule was deleted.
+
+Profile Changed:    %1
+
+Deleted Connection Security Rule:
+    ID:         %2
+    Name:           %3"
+5046,A change was made to IPsec settings. A crypto set was added.,"-A change was made to IPsec settings. A crypto set was added.
+
+Profile Changed:    %1
+
+Added Crypto Set:
+    ID:         %2
+    Name:           %3"
+5047,A change was made to IPsec settings. A crypto set was modified.,"-A change was made to IPsec settings. A crypto set was modified.
+
+Profile Changed:    %1
+
+Modified Crypto Set:
+    ID:         %2
+    Name:           %3"
+5048,A change was made to IPsec settings. A crypto set was deleted.,"-A change was made to IPsec settings. A crypto set was deleted.
+
+Profile Changed:    %1
+
+Deleted Crypto Set:
+    ID:         %2
+    Name:           %3"
+5049,An IPsec security association was deleted.,"-An IPsec security association was deleted.
+
+Profile Changed:    %1
+
+Deleted SA:
+    ID:         %2
+    Name:           %3"
+5050,An attempt to programmatically disable Windows Firewall was rejected.,"-An attempt to programmatically disable Windows Firewall using a call to INetFwProfile.FirewallEnabled(FALSE) interface was rejected because this API is not supported on this version of Windows. This is most likely due to a program that is incompatible with this version of Windows. Please contact the program's manufacturer to make sure you have a compatible program version.
+
+Error Code:     E_NOTIMPL
+Caller Process Name:        %1
+Process Id:     %2
+Publisher:      %3"
+5051,A file was virtualized.,"-A file was virtualized.
+
+Subject:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:     %3
+    Logon ID:           %4
+
+Object:
+    File Name:          %5
+    Virtual File Name:  %6
+
+Process Information:
+    Process ID:         %7
+    Process Name:           %8"
+5056,A cryptographic self test was performed.,"-A cryptographic self test was performed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Module:     %5
+
+Return Code:    %6"
+5057,A cryptographic primitive operation failed.,"-A cryptographic primitive operation failed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Cryptographic Parameters:
+    Provider Name:      %5
+    Algorithm Name: %6
+
+Failure Information:
+    Reason:         %7
+    Return Code:        %8"
+5058,Key file operation.,"-Key file operation.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Cryptographic Parameters:
+    Provider Name:  %5
+    Algorithm Name: %6
+    Key Name:   %7
+    Key Type:   %8
+
+Key File Operation Information:
+    File Path:  %9
+    Operation:  %10
+    Return Code:    %11"
+5059,Key migration operation.,"-Key migration operation.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Cryptographic Parameters:
+    Provider Name:  %5
+    Algorithm Name: %6
+    Key Name:   %7
+    Key Type:   %8
+
+Additional Information:
+    Operation:  %9
+    Return Code:    %10"
+5060,Verification operation failed.,"-Verification operation failed.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Cryptographic Parameters:
+    Provider Name:  %5
+    Algorithm Name: %6
+    Key Name:   %7
+    Key Type:   %8
+
+Failure Information:
+    Reason: %9
+    Return Code:    %10"
+5061,Cryptographic operation.,"-Cryptographic operation.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Cryptographic Parameters:
+    Provider Name:  %5
+    Algorithm Name: %6
+    Key Name:   %7
+    Key Type:   %8
+
+Cryptographic Operation:
+    Operation:  %9
+    Return Code:    %10"
+5062,A kernel,"-A kernel-mode cryptographic self test was performed.
+
+Module: %1
+
+Return Code:    %2"
+5063,A cryptographic provider operation was attempted.,"-A cryptographic provider operation was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Cryptographic Provider:
+    Name:   %5
+    Module: %6
+
+Operation:  %7
+
+Return Code:    %8"
+5064,A cryptographic context operation was attempted.,"-A cryptographic context operation was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Configuration Parameters:
+    Scope:  %5
+    Context:    %6
+
+Operation:  %7
+
+Return Code:    %8"
+5065,A cryptographic context modification was attempted.,"-A cryptographic context modification was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Configuration Parameters:
+    Scope:  %5
+    Context:    %6
+
+Change Information:
+    Old Value:  %7
+    New Value:  %8
+
+Return Code:    %9"
+5066,A cryptographic function operation was attempted.,"-A cryptographic function operation was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Configuration Parameters:
+    Scope:  %5
+    Context:    %6
+    Interface:  %7
+    Function:   %8
+    Position:   %9
+
+Operation:  %10
+
+Return Code:    %11"
+5067,A cryptographic function modification was attempted.,"-A cryptographic function modification was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Configuration Parameters:
+    Scope:  %5
+    Context:    %6
+    Interface:  %7
+    Function:   %8
+
+Change Information:
+    Old Value:  %9
+    New Value:  %10
+
+Return Code:    %11"
+5068,A cryptographic function provider operation was attempted.,"-A cryptographic function provider operation was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Configuration Parameters:
+    Scope:  %5
+    Context:    %6
+    Interface:  %7
+    Function:   %8
+    Provider:   %9
+    Position:   %10
+
+Operation:  %11
+
+Return Code:    %12"
+5069,A cryptographic function property operation was attempted.,"-A cryptographic function property operation was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Configuration Parameters:
+    Scope:  %5
+    Context:    %6
+    Interface:  %7
+    Function:   %8
+    Property:   %9
+
+Operation:  %10
+
+Value:  %11
+
+Return Code:    %12"
+5070,A cryptographic function property modification was attempted.,"-A cryptographic function property modification was attempted.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Configuration Parameters:
+    Scope:  %5
+    Context:    %6
+    Interface:  %7
+    Function:   %8
+    Property:   %9
+
+Change Information:
+    Old Value:  %10
+    New Value:  %11
+
+Return Code:    %12"
+5071,Key access denied by Microsoft key distribution service.,"-Key access denied by Microsoft key distribution service.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Security Descriptor:    %5"
+5120,OCSP Responder Service Started. ,-OCSP Responder Service Started.
+5121,OCSP Responder Service Stopped.,-OCSP Responder Service Stopped.
+5122,A Configuration entry changed in the OCSP Responder Service.,"-A Configuration entry changed in the OCSP Responder Service.
+
+CA Configuration ID:        %1
+New Value:      %2"
+5123,A configuration entry changed in the OCSP Responder Service.,"-A configuration entry changed in the OCSP Responder Service.
+
+Property Name:      %1
+New Value:      %2"
+5124,A security setting was updated on OCSP Responder Service.,"-A security setting was updated on OCSP Responder Service.
+
+New Value:  %1"
+5125,A request was submitted to OCSP Responder Service.,-A request was submitted to OCSP Responder Service.
+5126,Signing Certificate was automatically updated by the OCSP Responder Service.,"-Signing Certificate was automatically updated by the OCSP Responder Service.
+
+CA Configuration ID:        %1
+New Signing Certificate Hash:       %2"
+5127,The OCSP Revocation Provider successfully updated the revocation information.,"-The OCSP Revocation Provider successfully updated the revocation information.
+
+CA Configuration ID:        %1
+Base CRL Number:        %2
+Base CRL This Update:       %3
+Base CRL Hash:      %4
+Delta CRL Number:       %5
+Delta CRL Indicator:        %6
+Delta CRL This Update:      %7
+Delta CRL Hash:     %8"
+5136,A directory service object was modified,"OpCorrelationID,AppCorrelationID,SubjectUserSid,SubjectUserName	,SubjectDomainName,SubjectLogonId,DSName,DSType,ObjectDN,ObjectGUID,ObjectClass,AttributeLDAPDisplayName,AttributeSyntaxOID,AttributeValue,OperationType"
+5137,A directory service object was created,"OpCorrelationID,AppCorrelationID,SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,DSName,DSType,ObjectDN,ObjectGUID,ObjectClass"
+5138,A directory service object was undeleted.,"-A directory service object was undeleted.
+
+Subject:
+    Security ID:        %3
+    Account Name:       %4
+    Account Domain:     %5
+    Logon ID:       %6
+
+Directory Service:
+    Name:   %7
+    Type:   %8
+
+Object:
+    Old DN: %9
+    New DN: %10
+    GUID:   %11
+    Class:  %12
+
+Operation:
+    Correlation ID: %1
+    Application Correlation ID: %2"
+5139,A directory service object was moved.,"-A directory service object was moved.
+
+Subject:
+    Security ID:        %3
+    Account Name:       %4
+    Account Domain:     %5
+    Logon ID:       %6
+
+Directory Service:
+    Name:       %7
+    Type:       %8
+
+Object:
+    Old DN:     %9
+    New DN: %10
+    GUID:       %11
+    Class:      %12
+
+Operation:
+    Correlation ID:         %1
+    Application Correlation ID: %2"
+5140,A network share object was accessed,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectType,IpAddress,IpPort,ShareName,ShareLocalPath,AccessMask,AccessList"
+5141,A directory service object was deleted.,"-A directory service object was deleted.
+
+Subject:
+    Security ID:        %3
+    Account Name:       %4
+    Account Domain:     %5
+    Logon ID:       %6
+
+Directory Service:
+    Name:   %7
+    Type:   %8
+
+Object:
+    DN: %9
+    GUID:   %10
+    Class:  %11
+
+Operation:
+    Tree Delete:    %12
+    Correlation ID: %1
+    Application Correlation ID: %2"
+5142,A network share object was added,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ShareName,ShareLocalPath"
+5143,A network share object was modified,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ObjectType,ShareName,ShareLocalPath,OldRemark,NewRemark,OldMaxUsers,NewMaxUsers,OldShareFlags,NewShareFlags,OldSD,NewSD"
+5144,A network share object was deleted,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,ShareName,ShareLocalPath"
+5145,A network share object was checked to see whether client can be granted desired access.,"-A network share object was checked to see whether client can be granted desired access.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Network Information:    
+    Object Type:        %5
+    Source Address:     %6
+    Source Port:        %7
+
+Share Information:
+    Share Name:     %8
+    Share Path:     %9
+    Relative Target Name:   %10
+
+Access Request Information:
+    Access Mask:        %11
+    Accesses:       %12
+Access Check Results:
+    %13"
+5146,The Windows Filtering Platform has blocked a packet.,"-The Windows Filtering Platform has blocked a packet.
+
+Network Information:
+    Direction:      %1
+    Source Address: %2
+    Destination Address:    %3
+    EtherType:      %4
+    VlanTag:        %5
+    vSwitchId:      %6
+    Source vSwitch Port:        %7
+    Destination vSwitch Port:   %8
+
+Filter Information:
+    Filter Run-Time ID: %9
+    Layer Name:     %10
+    Layer Run-Time ID:  %11"
+5147,A more restrictive Windows Filtering Platform filter has blocked a packet.,"-A more restrictive Windows Filtering Platform filter has blocked a packet.
+
+Network Information:
+    Direction:      %1
+    Source Address: %2
+    Destination Address:    %3
+    EtherType:      %4
+    VlanTag:        %5
+    vSwitchId:      %6
+    Source vSwitch Port:        %7
+    Destination vSwitch Port:   %8
+
+Filter Information:
+    Filter Run-Time ID: %9
+    Layer Name:     %10
+    Layer Run-Time ID:  %11"
+5148,The Windows Filtering Platform has detected a DoS attack.,"-The Windows Filtering Platform has detected a DoS attack and entered a defensive mode; packets associated with this attack will be discarded.
+
+Network Information:
+    Type:       %1"
+5149,The DoS attack has subsided and normal processing is being resumed.,"-The DoS attack has subsided and normal processing is being resumed.
+
+Network Information:
+    Type:       %1
+    Packets Discarded:          %2"
+5150,The Windows Filtering Platform has blocked a packet.,"-The Windows Filtering Platform has blocked a packet.
+
+Network Information:
+    Direction:      %1
+    Source Address:     %2
+    Destination Address:    %3
+    EtherType:      %4
+    MediaType:      %5
+    InterfaceType:      %6
+    VlanTag:            %7
+
+Filter Information:
+    Filter Run-Time ID: %8
+    Layer Name:     %9
+    Layer Run-Time ID:  %10"
+5151,A more restrictive Windows Filtering Platform filter has blocked a packet.,"-A more restrictive Windows Filtering Platform filter has blocked a packet.
+
+Network Information:
+    Direction:      %1
+    Source Address:         %2
+    Destination Address:    %3
+    EtherType:      %4
+    MediaType:      %5
+    InterfaceType:      %6
+    VlanTag:            %7
+
+Filter Information:
+    Filter Run-Time ID: %8
+    Layer Name:     %9
+    Layer Run-Time ID:  %10"
+5152,The Windows Filtering Platform has blocked a packet.,Protocol
+5153,A more restrictive Windows Filtering Platform filter has blocked a packet.,"-A more restrictive Windows Filtering Platform filter has blocked a packet.
+
+Application Information:
+    Process ID:           %1
+    Application Name:     %2
+
+Network Information:
+    Direction:            %3
+    Source Address:       %4
+    Source Port:          %5
+    Destination Address:  %6
+    Destination Port:     %7
+    Protocol:             %8
+
+Filter Information:
+    Filter Run-Time ID:   %9
+    Layer Name:           %10
+    Layer Run-Time ID:    %11"
+5154,The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.,Protocol
+5155,The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.,"-The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.
+
+Application Information:
+    Process ID:     %1
+    Application Name:   %2
+
+Network Information:
+    Source Address:     %3
+    Source Port:        %4
+    Protocol:       %5
+
+Filter Information:
+    Filter Run-Time ID: %6
+    Layer Name:     %7
+    Layer Run-Time ID:  %8"
+5156,The Windows Filtering Platform has allowed a connection.,"ProcessID,Application,Direction,SourceAddress,SourcePort,DestAddress,DestPort,Protocol,FilterRTID,LayerName,LayerRTID,RemoteUserID,RemoteMachineID"
+5157,The Windows Filtering Platform has blocked a connection.,"Direction,Protocol"
+5158,The Windows Filtering Platform has permitted a bind to a local port.,"ProcessId,Application,SourceAddress,SourcePort,Protocol,FilterRTID,LayerName,LayerRTID"
+5168,Spn check for SMB/SMB2 fails.,"-Spn check for SMB/SMB2 fails.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+SPN:    
+    SPN Name:       %5
+    Error Code:     %6
+
+Server Information:
+    Server Names:       %7
+    Configured Names:       %8
+    IP Addresses:       %9"
+5169,A directory service object was modified.,"-A directory service object was modified.
+
+Subject:
+    Security ID:        %3
+    Account Name:       %4
+    Account Domain:     %5
+    Logon ID:           %6
+
+Directory Service:
+    Name:   %7
+    Type:   %8
+
+Object:
+    DN:     %9
+    GUID:   %10
+    Class:  %11
+
+Attribute:
+    LDAP Display Name:  %12
+    Syntax (OID):       %13
+    Value:              %14
+    Expiration Time:    %15
+
+Operation:
+    Type:                       %16
+    Correlation ID:             %1
+    Application Correlation ID: %2"
+5376,Credential Manager credentials were backed up.,"-Credential Manager credentials were backed up.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+This event occurs when a user backs up their own Credential Manager credentials. A user (even an Administrator) cannot back up the credentials of an account other than his own."
+5377,Credential Manager credentials were restored from a backup.,"-Credential Manager credentials were restored from a backup.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+This event occurs when a user restores his Credential Manager credentials from a backup. A user (even an Administrator) cannot restore the credentials of an account other than his own."
+5378,The requested credentials delegation was disallowed by policy.,"-The requested credentials delegation was disallowed by policy.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Credential Delegation Information:
+    Security Package:   %5
+    User's UPN: %6
+    Target Server:  %7
+    Credential Type:    %8"
+5440,The following callout was present when the Windows Filtering Platform Base Filtering Engine started.,"-The following callout was present when the Windows Filtering Platform Base Filtering Engine started.
+
+Provider Information:   
+    ID:     %1
+    Name:       %2
+
+Callout Information:
+    ID:     %3
+    Name:       %4
+    Type:       %5
+    Run-Time ID:    %6
+
+Layer Information:
+    ID:     %7
+    Name:       %8
+    Run-Time ID:    %9"
+5441,The following filter was present when the Windows Filtering Platform Base Filtering Engine started.,"-The following filter was present when the Windows Filtering Platform Base Filtering Engine started.
+
+Provider Information:   
+    ID:     %1
+    Name:       %2
+
+Filter Information:
+    ID:     %3
+    Name:       %4
+    Type:       %5
+    Run-Time ID:    %6
+
+Layer Information:
+    ID:     %7
+    Name:       %8
+    Run-Time ID:    %9
+    Weight:     %10
+
+Additional Information:
+    Conditions: %11
+    Filter Action:  %12
+    Callout ID: %13
+    Callout Name:   %14"
+5442,The following provider was present when the Windows Filtering Platform Base Filtering Engine started.,"-The following provider was present when the Windows Filtering Platform Base Filtering Engine started.
+
+Provider ID:    %1
+Provider Name:  %2
+Provider Type:  %3"
+5443,The following provider context was present when the Windows Filtering Platform Base Filtering Engine started.,"-The following provider context was present when the Windows Filtering Platform Base Filtering Engine started.
+
+Provider ID:    %1
+Provider Name:  %2
+Provider Context ID:    %3
+Provider Context Name:  %4
+Provider Context Type:  %5"
+5444,The following sub,"-The following sub-layer was present when the Windows Filtering Platform Base Filtering Engine started.
+
+Provider ID:    %1
+Provider Name:  %2
+Sub-layer ID:   %3
+Sub-layer Name: %4
+Sub-layer Type: %5
+Weight:     %6"
+5446,A Windows Filtering Platform callout has been changed.,"-A Windows Filtering Platform callout has been changed.
+
+Subject:
+    Security ID:        %2
+    Account Name:       %3
+
+Process Information:
+    Process ID: %1
+
+Provider Information:
+    ID:     %4
+    Name:       %5
+
+Change Information:
+    Change Type:    %6
+
+Callout Information:
+    ID:     %7
+    Name:       %8
+    Type:       %9
+    Run-Time ID:    %10
+
+Layer Information:
+    ID:     %11
+    Name:       %12
+    Run-Time ID:    %13"
+5447,A Windows Filtering Platform filter has been changed.,"-A Windows Filtering Platform filter has been changed.
+
+Subject:
+    Security ID:   %2
+    Account Name:  %3
+
+Process Information:
+    Process ID:    %1
+
+Provider Information:
+    ID:            %4
+    Name:          %5
+
+Change Information:
+    Change Type:   %6
+
+Filter Information:
+    ID:            %7
+    Name:          %8
+    Type:          %9
+    Run-Time ID:   %10
+
+Layer Information:
+    ID:            %11
+    Name:          %12
+    Run-Time ID:   %13
+
+Callout Information:
+    ID:            %17
+    Name:          %18
+
+Additional Information:
+    Weight:        %14  
+    Conditions:    %15
+    Filter Action: %16"
+5448,A Windows Filtering Platform provider has been changed.,"-A Windows Filtering Platform provider has been changed.
+
+Subject:
+    Security ID:        %2
+    Account Name:       %3
+
+Process Information:
+    Process ID: %1
+
+Change Information:
+    Change Type:    %4
+
+Provider Information:
+    ID:     %5
+    Name:       %6
+    Type:       %7"
+5449,A Windows Filtering Platform provider context has been changed.,"-A Windows Filtering Platform provider context has been changed.
+
+Subject:
+    Security ID:        %2
+    Account Name:       %3
+
+Process Information:
+    Process ID: %1
+
+Provider Information:
+    Provider ID:    %4
+    Provider Name:  %5
+
+Change Information:
+    Change Type:    %6
+
+Provider Context:
+    ID: %7
+    Name:   %8
+    Type:   %9"
+5450,A Windows Filtering Platform sub,"-A Windows Filtering Platform sub-layer has been changed.
+
+Subject:
+    Security ID:        %2
+    Account Name:       %3
+
+Process Information:
+    Process ID: %1
+
+Provider Information:
+    Provider ID:    %4
+    Provider Name:  %5
+
+Change Information:
+    Change Type:    %6
+
+Sub-layer Information:
+    Sub-layer ID:   %7
+    Sub-layer Name: %8
+    Sub-layer Type: %9
+
+Additional Information:
+    Weight: %10"
+5451,An IPsec quick mode security association was established.,"-An IPsec quick mode security association was established.
+
+Local Endpoint:
+    Network Address:    %1
+    Network Address mask:   %2
+    Port:           %3
+    Tunnel Endpoint:        %4
+
+Remote Endpoint:
+    Network Address:    %5
+    Network Address Mask:   %6
+    Port:           %7
+    Private Address:        %8
+    Tunnel Endpoint:        %9
+
+    Protocol:       %10
+    Keying Module Name: %11
+
+Cryptographic Information:
+    Integrity Algorithm - AH:   %12
+    Integrity Algorithm - ESP:  %13
+    Encryption Algorithm:   %14
+
+Security Association Information:
+    Lifetime - seconds: %15
+    Lifetime - data:        %16
+    Lifetime - packets: %17
+    Mode:           %18
+    Role:           %19
+    Quick Mode Filter ID:   %20
+    Main Mode SA ID:    %21
+    Quick Mode SA ID:   %22
+
+Additional Information:
+    Inbound SPI:        %23
+    Outbound SPI:       %24"
+5452,An IPsec quick mode security association ended.,"-An IPsec quick mode security association ended.
+
+Local Endpoint:
+    Network Address:    %1
+    Port:           %2
+    Tunnel Endpoint:        %3
+
+Remote Endpoint:
+    Network Address:    %4
+    Port:           %5
+    Tunnel Endpoint:        %6
+
+Additional Information:
+    Protocol:       %7
+    Quick Mode SA ID:   %8"
+5453,An IPsec negotiation with a remote computer failed.,-An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started.
+5456,IPsec Policy Agent applied Active Directory storage IPsec policy on the computer.,"-IPsec Policy Agent applied Active Directory storage IPsec policy on the computer.
+
+Policy:     %1"
+5457,IPsec Policy Agent failed to apply Active Directory storage IPsec policy on the computer.,"-IPsec Policy Agent failed to apply Active Directory storage IPsec policy on the computer.
+
+DN:     %1
+Error code:     %2"
+5458,IPsec Policy Agent applied locally cached copy of Active Directory storage IPsec policy on the computer.,"-IPsec Policy Agent applied locally cached copy of Active Directory storage IPsec policy on the computer.
+
+Policy:     %1"
+5459,IPsec Policy Agent failed to apply locally cached copy of Active Directory storage IPsec policy on the computer.,"-IPsec Policy Agent failed to apply locally cached copy of Active Directory storage IPsec policy on the computer.
+
+Policy:     %1
+Error Code:     %2"
+5460,IPsec Policy Agent applied local registry storage IPsec policy on the computer.,"-IPsec Policy Agent applied local registry storage IPsec policy on the computer.
+
+Policy:     %1"
+5461,IPsec Policy Agent failed to apply local registry storage IPsec policy on the computer,"-IPsec Policy Agent failed to apply local registry storage IPsec policy on the computer.
+
+Policy:     %1
+Error Code:     %2"
+5462,IPsec Policy Agent failed to apply some rules of the active IPsec policy on the computer.,"-IPsec Policy Agent failed to apply some rules of the active IPsec policy on the computer. Use the IP Security Monitor snap-in to diagnose the problem.
+
+Policy:     %1
+Error Code:     %2"
+5463,IPsec Policy Agent polled for changes to the active IPsec policy and detected no changes.,-IPsec Policy Agent polled for changes to the active IPsec policy and detected no changes.
+5464,"IPsec Policy Agent polled for changes to the active IPsec policy, detected changes, and applied them.","-IPsec Policy Agent polled for changes to the active IPsec policy, detected changes, and applied them."
+5465,IPsec Policy Agent received a control for forced reloading of IPsec policy and processed the control successfully.,-IPsec Policy Agent received a control for forced reloading of IPsec policy and processed the control successfully.
+5466,IPsec Policy Agent polled for changes to the Active Directory IPsec policy.,"-IPsec Policy Agent polled for changes to the Active Directory IPsec policy, determined that Active Directory cannot be reached, and will use the cached copy of the Active Directory IPsec policy instead. Any changes made to the Active Directory IPsec policy since the last poll could not be applied."
+5467,IPsec Policy Agent polled for changes to the Active Directory IPsec policy.,"-IPsec Policy Agent polled for changes to the Active Directory IPsec policy, determined that Active Directory can be reached, and found no changes to the policy. The cached copy of the Active Directory IPsec policy is no longer being used."
+5468,IPsec Policy Agent polled for changes to the Active Directory IPsec policy.,"-IPsec Policy Agent polled for changes to the Active Directory IPsec policy, determined that Active Directory can be reached, found changes to the policy, and applied those changes. The cached copy of the Active Directory IPsec policy is no longer being used."
+5471,IPsec Policy Agent loaded local storage IPsec policy on the computer.,"-IPsec Policy Agent loaded local storage IPsec policy on the computer.
+
+Policy:     %1"
+5472,IPsec Policy Agent failed to load local storage IPsec policy on the computer.,"-IPsec Policy Agent failed to load local storage IPsec policy on the computer.
+
+Policy:     %1
+Error Code:     %2"
+5473,IPsec Policy Agent loaded directory storage IPsec policy on the computer.,"-IPsec Policy Agent loaded directory storage IPsec policy on the computer.
+
+Policy:     %1"
+5474,IPsec Policy Agent failed to load directory storage IPsec policy on the computer.,"-IPsec Policy Agent failed to load directory storage IPsec policy on the computer.
+
+Policy:     %1
+Error Code:     %2"
+5477,IPsec Policy Agent failed to add quick mode filter.,"-IPsec Policy Agent failed to add quick mode filter.
+
+Quick Mode Filter:      %1
+Error Code:     %2"
+5478,The IPsec Policy Agent service was started.,-The IPsec Policy Agent service was started.
+5479,The IPsec Policy Agent service was stopped.,-The IPsec Policy Agent service was stopped. Stopping this service can put the computer at greater risk of network attack or expose the computer to potential security risks.
+5480,IPsec Policy Agent failed to get the complete list of network interfaces on the computer.,-IPsec Policy Agent failed to get the complete list of network interfaces on the computer. This poses a potential security risk because some of the network interfaces may not get the protection provided by the applied IPsec filters. Use the IP Security Monitor snap-in to diagnose the problem.
+5483,The IPsec Policy Agent service failed to initialize its RPC server.,"-The IPsec Policy Agent service failed to initialize its RPC server. The service could not be started.
+
+Error Code:     %1"
+5484,The IPsec Policy Agent service experienced a critical failure and has shut down.,"-The IPsec Policy Agent service experienced a critical failure and has shut down. The shutdown of this service can put the computer at greater risk of network attack or expose the computer to potential security risks.
+
+Error Code:     %1"
+5485,IPsec Policy Agent failed to process some IPsec filters on a plug,-IPsec Policy Agent failed to process some IPsec filters on a plug-and-play event for network interfaces. This poses a potential security risk because some of the network interfaces may not get the protection provided by the applied IPsec filters. Use the IP Security Monitor snap-in to diagnose the problem.
+5632,A request was made to authenticate to a wireless network.,"-A request was made to authenticate to a wireless network.
+
+Subject:
+    Security ID:        %2
+    Account Name:       %3
+    Account Domain:     %4
+    Logon ID:       %5
+
+Network Information:
+    Name (SSID):        %1
+    Interface GUID:     %8
+    Local MAC Address:  %7
+    Peer MAC Address:   %6
+
+Additional Information:
+    Reason Code:        %10 (%9)
+    Error Code:     %11"
+5633,A request was made to authenticate to a wired network.,"-A request was made to authenticate to a wired network.
+
+Subject:
+    Security ID:        %2
+    Account Name:       %3
+    Account Domain:     %4
+    Logon ID:       %5
+
+Interface:
+    Name:           %1
+
+Additional Information
+    Reason Code:        %7 (%6)
+    Error Code:     %8"
+5712,A Remote Procedure Call (RPC) was attempted.,"-A Remote Procedure Call (RPC) was attempted.
+
+Subject:
+    SID:            %1
+    Name:           %2
+    Account Domain:     %3
+    LogonId:        %4
+
+Process Information:
+    PID:            %5
+    Name:           %6
+
+Network Information:
+    Remote IP Address:  %7
+    Remote Port:        %8
+
+RPC Attributes:
+    Interface UUID:     %9
+    Protocol Sequence:  %10
+    Authentication Service: %11
+    Authentication Level:   %12"
+5888,An object in the COM+ Catalog was modified.,"-An object in the COM+ Catalog was modified.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    COM+ Catalog Collection:    %5
+    Object Name:            %6
+    Object Properties Modified: %7"
+5889,An object was deleted from the COM+ Catalog.,"-An object was deleted from the COM+ Catalog.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    COM+ Catalog Collection:    %5
+    Object Name:            %6
+    Object Details:         %7
+This event occurs when an object is deleted from the COM+ catalog."
+5890,An object was added to the COM+ Catalog.,"-An object was added to the COM+ Catalog.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Object:
+    COM+ Catalog Collection:    %5
+    Object Name:            %6
+    Object Details:         %7"
+6144,Security policy in the group policy objects has been applied successfully.,"-Security policy in the group policy objects has been applied successfully. 
+
+Return Code:    %1
+
+GPO List:
+%2"
+6145,One or more errors occurred while processing security policy in the group policy objects.,"-One or more errors occured while processing security policy in the group policy objects.
+
+Error Code: %1
+GPO List:
+%2"
+6272,Network Policy Server granted access to a user.,"-Network Policy Server granted access to a user.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4
+
+Client Machine:
+    Security ID:            %5
+    Account Name:           %6
+    Fully Qualified Account Name:   %7
+    OS-Version:         %8
+    Called Station Identifier:      %9
+    Calling Station Identifier:     %10
+
+NAS:
+    NAS IPv4 Address:       %11
+    NAS IPv6 Address:       %12
+    NAS Identifier:         %13
+    NAS Port-Type:          %14
+    NAS Port:           %15
+
+RADIUS Client:
+    Client Friendly Name:       %16
+    Client IP Address:          %17
+
+Authentication Details:
+    Connection Request Policy Name: %18
+    Network Policy Name:        %19
+    Authentication Provider:        %20
+    Authentication Server:      %21
+    Authentication Type:        %22
+    EAP Type:           %23
+    Account Session Identifier:     %24
+    Logging Results:            %27
+
+Quarantine Information:
+    Result:             %25
+    Session Identifier:         %26"
+6273,Network Policy Server denied access to a user.,"-Network Policy Server denied access to a user.
+
+Contact the Network Policy Server administrator for more information.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4
+
+Client Machine:
+    Security ID:            %5
+    Account Name:           %6
+    Fully Qualified Account Name:   %7
+    OS-Version:         %8
+    Called Station Identifier:      %9
+    Calling Station Identifier:     %10
+
+NAS:
+    NAS IPv4 Address:       %11
+    NAS IPv6 Address:       %12
+    NAS Identifier:         %13
+    NAS Port-Type:          %14
+    NAS Port:           %15
+
+RADIUS Client:
+    Client Friendly Name:       %16
+    Client IP Address:          %17
+
+Authentication Details:
+    Connection Request Policy Name: %18
+    Network Policy Name:        %19
+    Authentication Provider:        %20
+    Authentication Server:      %21
+    Authentication Type:        %22
+    EAP Type:           %23
+    Account Session Identifier:     %24
+    Logging Results:            %27
+    Reason Code:            %25
+    Reason:             %26"
+6274,Network Policy Server discarded the request for a user.,"-Network Policy Server discarded the request for a user.
+
+Contact the Network Policy Server administrator for more information.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4
+
+Client Machine:
+    Security ID:            %5
+    Account Name:           %6
+    Fully Qualified Account Name:   %7
+    OS-Version:         %8
+    Called Station Identifier:      %9
+    Calling Station Identifier:     %10
+
+NAS:
+    NAS IPv4 Address:       %11
+    NAS IPv6 Address:       %12
+    NAS Identifier:         %13
+    NAS Port-Type:          %14
+    NAS Port:           %15
+
+RADIUS Client:
+    Client Friendly Name:       %16
+    Client IP Address:          %17
+
+Authentication Details:
+    Connection Request Policy Name: %18
+    Network Policy Name:        %19
+    Authentication Provider:        %20
+    Authentication Server:      %21
+    Authentication Type:        %22
+    EAP Type:           %23
+    Account Session Identifier:     %24
+    Reason Code:            %25
+    Reason:             %26"
+6275,Network Policy Server discarded the accounting request for a user.,"-Network Policy Server discarded the accounting request for a user.
+
+Contact the Network Policy Server administrator for more information.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4
+
+Client Machine:
+    Security ID:            %5
+    Account Name:           %6
+    Fully Qualified Account Name:   %7
+    OS-Version:         %8
+    Called Station Identifier:      %9
+    Calling Station Identifier:     %10
+
+NAS:
+    NAS IPv4 Address:       %11
+    NAS IPv6 Address:       %12
+    NAS Identifier:         %13
+    NAS Port-Type:          %14
+    NAS Port:           %15
+
+RADIUS Client:
+    Client Friendly Name:       %16
+    Client IP Address:          %17
+
+Authentication Details:
+    Connection Request Policy Name: %18
+    Network Policy Name:        %19
+    Authentication Provider:        %20
+    Authentication Server:      %21
+    Authentication Type:        %22
+    EAP Type:           %23
+    Account Session Identifier:     %24
+    Reason Code:            %25
+    Reason:             %26"
+6276,Network Policy Server quarantined a user.,"-Network Policy Server quarantined a user.
+
+Contact the Network Policy Server administrator for more information.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4
+
+Client Machine:
+    Security ID:            %5
+    Account Name:           %6
+    Fully Qualified Account Name:   %7
+    OS-Version:         %8
+    Called Station Identifier:      %9
+    Calling Station Identifier:     %10
+
+NAS:
+    NAS IPv4 Address:       %11
+    NAS IPv6 Address:       %12
+    NAS Identifier:         %13
+    NAS Port-Type:          %14
+    NAS Port:           %15
+
+RADIUS Client:
+    Client Friendly Name:       %16
+    Client IP Address:          %17
+
+Authentication Details:
+    Connection Request Policy Name: %18
+    Network Policy Name:        %19
+    Authentication Provider:        %20
+    Authentication Server:      %21
+    Authentication Type:        %22
+    EAP Type:           %23
+    Account Session Identifier:     %24
+
+Quarantine Information:
+    Result:             %25
+    Extended-Result:            %26
+    Session Identifier:         %27
+    Help URL:           %28
+    System Health Validator Result(s):  %29"
+6277,Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy.,"-Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy.
+
+Contact the Network Policy Server administrator for more information.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4
+
+Client Machine:
+    Security ID:            %5
+    Account Name:           %6
+    Fully Qualified Account Name:   %7
+    OS-Version:         %8
+    Called Station Identifier:      %9
+    Calling Station Identifier:     %10
+
+NAS:
+    NAS IPv4 Address:       %11
+    NAS IPv6 Address:       %12
+    NAS Identifier:         %13
+    NAS Port-Type:          %14
+    NAS Port:           %15
+
+RADIUS Client:
+    Client Friendly Name:       %16
+    Client IP Address:          %17
+
+Authentication Details:
+    Connection Request Policy Name: %18
+    Network Policy Name:        %19
+    Authentication Provider:        %20
+    Authentication Server:      %21
+    Authentication Type:        %22
+    EAP Type:           %23
+    Account Session Identifier:     %24
+
+Quarantine Information:
+    Result:             %25
+    Extended-Result:            %26
+    Session Identifier:         %27
+    Help URL:           %28
+    System Health Validator Result(s):  %29
+    Quarantine Grace Time:      %30"
+6278,Network Policy Server granted full access to a user because the host met the defined health policy.,"-Network Policy Server granted full access to a user because the host met the defined health policy.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4
+
+Client Machine:
+    Security ID:            %5
+    Account Name:           %6
+    Fully Qualified Account Name:   %7
+    OS-Version:         %8
+    Called Station Identifier:      %9
+    Calling Station Identifier:     %10
+
+NAS:
+    NAS IPv4 Address:       %11
+    NAS IPv6 Address:       %12
+    NAS Identifier:         %13
+    NAS Port-Type:          %14
+    NAS Port:           %15
+
+RADIUS Client:
+    Client Friendly Name:       %16
+    Client IP Address:          %17
+
+Authentication Details:
+    Connection Request Policy Name: %18
+    Network Policy Name:        %19
+    Authentication Provider:        %20
+    Authentication Server:      %21
+    Authentication Type:        %22
+    EAP Type:           %23
+    Account Session Identifier:     %24
+
+Quarantine Information:
+    Result:             %25
+    Extended-Result:            %26
+    Session Identifier:         %27
+    Help URL:           %28
+    System Health Validator Result(s):  %29"
+6279,Network Policy Server locked the user account due to repeated failed authentication attempts.,"-Network Policy Server locked the user account due to repeated failed authentication attempts.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4"
+6280,Network Policy Server unlocked the user account.,"-Network Policy Server unlocked the user account.
+
+User:
+    Security ID:            %1
+    Account Name:           %2
+    Account Domain:         %3
+    Fully Qualified Account Name:   %4"
+6281,Code Integrity determined that the page hashes of an image file are not valid.,"-Code Integrity determined that the page hashes of an image file are not valid. The file could be improperly signed without page hashes or corrupt due to unauthorized modification. The invalid hashes could indicate a potential disk device error.
+
+File Name:  %1"
+6400,BranchCache: Received an incorrectly formatted response while discovering availability of content.,"-BranchCache: Received an incorrectly formatted response while discovering availability of content.
+
+IP address of the client that sent this response:           %1"
+6401,BranchCache: Received invalid data from a peer. Data discarded.,"-BranchCache: Received invalid data from a peer. Data discarded. 
+
+IP address of the client that sent this data:           %1"
+6402,BranchCache: The message to the hosted cache offering it data is incorrectly formatted.,"-BranchCache: The message to the hosted cache offering it data is incorrectly formatted. 
+
+IP address of the client that sent this message:            %1"
+6403,BranchCache: The hosted cache sent an incorrectly formatted response to the client's message to offer it data.,"-BranchCache: The hosted cache sent an incorrectly formatted response to the client's message to offer it data. 
+
+Domain name of the hosted cache is:         %1"
+6404,BranchCache: Hosted cache could not be authenticated using the provisioned SSL certificate.,"-BranchCache: Hosted cache could not be authenticated using the provisioned SSL certificate. 
+
+Domain name of the hosted cache:            %1
+
+Error Code:         %2"
+6405,BranchCache: %2 instance(s) of event id %1 occurred.,-BranchCache: %2 instance(s) of event id %1 occurred.
+6406,%1 registered to Windows Firewall to control filtering for the following:  %2.,"-%1 registered to Windows Firewall to control filtering for the following: 
+%2."
+6407,n/a,-%1
+6408,Registered product %1 failed and Windows Firewall is now controlling the filtering for %2.,-Registered product %1 failed and Windows Firewall is now controlling the filtering for %2.
+6409,BranchCache: A service connection point object could not be parsed.,"-BranchCache: A service connection point object could not be parsed. 
+
+SCP object GUID: %1"
+6410,Code integrity determined that a file does not meet the security requirements to load into a process.,"-Code integrity determined that a file does not meet the security requirements to load into a process. This could be due to the use of shared sections or other issues.
+
+File Name:  %1"
+6416,A new external device was recognized by the system.,"SubjectUserSid,SubjectUserName,SubjectDomainName,SubjectLogonId,DeviceId,DeviceDescription,ClassId,ClassName,VendorIds,CompatibleIds,LocationInformation"
+6417,The FIPS mode crypto selftests succeeded.,"-The FIPS mode crypto selftests succeeded.
+
+    Process ID:     %1
+    Process Name:       %2"
+6418,The FIPS mode crypto selftests failed.,"-The FIPS mode crypto selftests failed.
+
+    Process ID:     %1
+    Process Name:       %2
+    Failed test code:       %3"
+6419,A request was made to disable a device.,"-A request was made to disable a device.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Device ID:  %5
+
+Device Name:    %6
+
+Class ID:       %7
+
+Class Name: %8
+
+Hardware IDs:   %9
+
+Compatible IDs: %10
+
+Location Information:   %11"
+6420,A device was disabled.,"-A device was disabled.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Device ID:  %5
+
+Device Name:    %6
+
+Class ID:       %7
+
+Class Name: %8
+
+Hardware IDs:   %9
+
+Compatible IDs: %10
+
+Location Information:   %11"
+6421,A request was made to enable a device.,"-A request was made to enable a device.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Device ID:  %5
+
+Device Name:    %6
+
+Class ID:       %7
+
+Class Name: %8
+
+Hardware IDs:   %9
+
+Compatible IDs: %10
+
+Location Information:   %11"
+6422,A device was enabled.,"-A device was enabled.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Device ID:  %5
+
+Device Name:    %6
+
+Class ID:       %7
+
+Class Name: %8
+
+Hardware IDs:   %9
+
+Compatible IDs: %10
+
+Location Information:   %11"
+6423,The installation of this device is forbidden by system policy.,"-The installation of this device is forbidden by system policy.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Device ID:  %5
+
+Device Name:    %6
+
+Class ID:       %7
+
+Class Name: %8
+
+Hardware IDs:   %9
+
+Compatible IDs: %10
+
+Location Information:   %11"
+6424,"The installation of this device was allowed, after having previously been forbidden by policy.","-The installation of this device was allowed, after having previously been forbidden by policy.
+
+Subject:
+    Security ID:        %1
+    Account Name:       %2
+    Account Domain:     %3
+    Logon ID:       %4
+
+Device ID:  %5
+
+Device Name:    %6
+
+Class ID:       %7
+
+Class Name: %8
+
+Hardware IDs:   %9
+
+Compatible IDs: %10
+
+Location Information:   %11"
